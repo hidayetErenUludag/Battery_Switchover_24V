@@ -2071,6 +2071,28 @@
 		)
 		(uuid "c212f406-34af-403d-aa70-491fc0b3baa5")
 	)
+	(global_label "Vbatt"
+		(shape input)
+		(at 147.32 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c01ef49-a723-4b81-8715-a86d18be3d53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 25.1968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 218.44 35.56 270)
