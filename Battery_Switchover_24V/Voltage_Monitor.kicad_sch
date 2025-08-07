@@ -1139,6 +1139,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Change Mosfet Count\n"
+		(exclude_from_sim no)
+		(at 176.784 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16db5373-2cae-4cc6-bfc1-a39344d15295")
+	)
 	(junction
 		(at 33.02 100.33)
 		(diameter 0)
@@ -2304,13 +2314,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "51a2f631-5ea4-48d9-aaed-bf2f123b800b")
+			(uuid "a114f79b-7a5a-4134-8188-2796a0a33f65")
 		)
 		(pin "1"
-			(uuid "1ea13951-52f8-46dd-96ff-05f527e15920")
+			(uuid "5d520719-36d7-4e3e-86e1-1abd93ad0aa6")
 		)
 		(pin "3"
-			(uuid "a424ff05-155e-4cf2-adce-e209da306d2c")
+			(uuid "b07dcd07-a9ae-498f-a9e4-fc6e791bf6cb")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2331,7 +2341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09fe942c-1252-45b1-a055-f874fe0e5a2c")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 166.37 46.99 0)
 			(effects
 				(font
@@ -2377,33 +2387,33 @@
 			)
 		)
 		(pin "7"
-			(uuid "6fcf6e19-92e2-498b-9710-9fdc41eca07f")
+			(uuid "0599e9a9-d42e-477a-92d1-5ceda722470d")
 		)
 		(pin "6"
-			(uuid "d6a7407f-0288-49f1-9f14-307b8b3400cb")
+			(uuid "64ea9167-0c50-4cef-8da6-f5df0accfc61")
 		)
 		(pin "5"
-			(uuid "9bb12221-d271-48e2-aea5-67a720c3327c")
+			(uuid "e671b38b-5787-447e-b763-0d9843c686a0")
 		)
 		(pin "2"
-			(uuid "25cd6f81-020c-4712-8c4e-a68d11de9c68")
+			(uuid "0f2bf2b7-8f75-4d86-8a8d-9f8cd94e01c0")
 		)
 		(pin "1"
-			(uuid "3d057eb3-62e9-4710-9d8e-122c6efedefe")
+			(uuid "a17b9b63-cf56-4004-bc34-415ef4447c4f")
 		)
 		(pin "8"
-			(uuid "f7e03788-4133-4138-af38-723953aa7e48")
+			(uuid "ba61a408-972b-415f-91c4-c9a0e1b8e6e1")
 		)
 		(pin "3"
-			(uuid "465bc16d-317d-4a68-ba35-8e3a0eceb234")
+			(uuid "e3b159c4-98b4-4759-b1f9-bb987a32a164")
 		)
 		(pin "4"
-			(uuid "fe3159c4-b353-426f-8d5d-db108fa9b1fa")
+			(uuid "5b972f9d-8478-4fee-a9c3-4aa382026b91")
 		)
 		(instances
-			(project ""
+			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2474,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6de7a065-f0f1-46e8-a600-4620031d60f9")
+			(uuid "ece7e6d7-42ea-4299-bd0a-ff283a441b09")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2556,13 +2566,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "44cd2a0d-41d9-4261-87ef-25cf3b54917d")
+			(uuid "198a04bf-763f-49c6-a683-91b519427b93")
 		)
 		(pin "1"
-			(uuid "17ad3056-93ed-4260-a775-cb12b1bc6a26")
+			(uuid "f140c85f-be82-4463-8754-07ad781be0ef")
 		)
 		(pin "3"
-			(uuid "12e2a778-da5e-42c3-9979-b957923c9ab7")
+			(uuid "b84cb5a8-2258-4a3d-8b07-624a559eb9b1")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2629,10 +2639,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f27e229-6bcf-4423-b94d-075e95c8288f")
+			(uuid "0e986d16-3de9-40b3-9a66-01177e2d2500")
 		)
 		(pin "2"
-			(uuid "7311a456-7702-4135-bcff-83a2b89354a9")
+			(uuid "e1aa4897-9d7c-440e-844c-feb11d8c78f4")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2699,10 +2709,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b988c49-231f-437d-8a67-a2c241f85880")
+			(uuid "2a879069-0e13-4bff-a16f-c599fbd88e6b")
 		)
 		(pin "2"
-			(uuid "ff9c574a-1dfb-46df-901b-9c8f5cd7bc82")
+			(uuid "b4416cd9-cc2b-4d27-9096-139d3a8d6d0f")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2769,10 +2779,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ae25a2d-052d-4d28-8084-2a3084faa918")
+			(uuid "d6a0910b-7a67-4799-a3a1-73ab1b0a92cb")
 		)
 		(pin "2"
-			(uuid "787af576-9be7-48e3-894e-112788283f9d")
+			(uuid "5b069472-5ce7-432f-b791-78feeaf83429")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2839,10 +2849,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b8d103e-4af3-42bb-b0f1-e391824709fa")
+			(uuid "e5b98562-4f20-49f8-96a2-af358127c241")
 		)
 		(pin "2"
-			(uuid "b42e8e52-6c89-4555-94a2-c7bc65921507")
+			(uuid "d8b36a62-b22f-461b-8c80-786a9bf928d0")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2908,7 +2918,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f8a6002-7b02-4296-b9e8-2d0457761357")
+			(uuid "afc80690-3cfa-4487-9ee4-e59af7ce6bff")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2974,7 +2984,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a2c098e-e336-4a93-ae09-97365cf64afe")
+			(uuid "154b978a-11a9-4ccc-969d-5ba6d4009799")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -2995,7 +3005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3c76df-acfd-42ee-81ee-c5dff0ff9848")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 102.87 50.8 0)
 			(effects
 				(font
@@ -3040,12 +3050,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a62786f-ab45-4742-9cef-ea0904259d1c")
+			(uuid "c45c4696-0b04-4578-8659-c93ba18af0b8")
 		)
 		(instances
-			(project ""
+			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3106,7 +3116,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5339c8e2-9c69-4a82-959e-2bbc2fe6013a")
+			(uuid "64f13a5f-199d-4bfc-962e-f57828e88c16")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3198,13 +3208,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "7db3fbff-66f6-49bf-ab8c-54b5c3b68d5b")
+			(uuid "0f271983-6d18-4724-9b14-7a32d01d8358")
 		)
 		(pin "1"
-			(uuid "896aa813-baf7-4d6f-b994-6dc7e22926cb")
+			(uuid "b29232e3-fec7-4878-a161-1063c27aada8")
 		)
 		(pin "3"
-			(uuid "5480bb34-e206-4ac0-b401-717ee615932e")
+			(uuid "d3a8db0d-8239-4c9f-a8e7-8abb29fc8204")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3270,7 +3280,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa6fe252-62d7-4771-ab97-837237c99595")
+			(uuid "d47c4ee6-02f8-40ca-aef1-e2e559b9021d")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3291,7 +3301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858dc1db-a2b5-4d25-a6ad-2449361e6422")
-		(property "Reference" "BT1"
+		(property "Reference" "BT?"
 			(at 106.68 34.9884 0)
 			(effects
 				(font
@@ -3337,15 +3347,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b0606737-6e4e-42e5-af77-21de89e3e0a3")
+			(uuid "0253e4de-fe13-43ea-aaf3-b1aef2749b01")
 		)
 		(pin "1"
-			(uuid "1d156287-2631-4b3c-bafb-b44cb31b8e6c")
+			(uuid "94bc12c5-7ec6-40e6-8be7-5817a4df30ff")
 		)
 		(instances
-			(project ""
+			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "BT1")
+					(reference "BT?")
 					(unit 1)
 				)
 			)
@@ -3406,7 +3416,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3811ec5b-c102-446b-a39b-40773e611ab7")
+			(uuid "d9b69bca-3a36-418f-b732-79c9472b34a8")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3473,10 +3483,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "afcd8b72-fc92-45c0-bab4-f42cf988abb2")
+			(uuid "d13797b0-3817-49e5-8e4d-3211c6d83ec3")
 		)
 		(pin "2"
-			(uuid "d074af97-b762-4437-a02d-10e86a136a85")
+			(uuid "b7b982af-37b4-4349-b2af-998293c1b25c")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3542,7 +3552,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "231a7e3a-93ae-4eaa-8742-3d836a3be813")
+			(uuid "8e21f92d-2f8e-45c9-8fa5-13ca2a7739e4")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3609,10 +3619,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b3d554d-ed0a-4c7b-b470-b787dd7fc327")
+			(uuid "73332759-44d5-44e6-9b5d-2c7efa154cce")
 		)
 		(pin "2"
-			(uuid "d77d331f-d4d5-4a48-8c21-76b423e48633")
+			(uuid "da6cf58e-f7d4-4ad1-af64-97c78ed27459")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3633,7 +3643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6619805-f7e2-4da7-8d8c-64bfd8ed773b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 24.13 104.14 0)
 			(effects
 				(font
@@ -3678,12 +3688,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc441818-5971-44d5-82c3-ff76ed253f57")
+			(uuid "35d0b5d1-63b3-46fc-8564-60460682f3d0")
 		)
 		(instances
-			(project ""
+			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "#PWR02")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3770,13 +3780,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "86102019-097e-49b6-9712-64730ece3f79")
+			(uuid "871b6d2b-8c40-48b3-83ee-1944186e8cc6")
 		)
 		(pin "1"
-			(uuid "63196c28-5b7e-42c4-b682-cbf58262914a")
+			(uuid "49245274-9ece-4ed7-9531-3b43be8485f6")
 		)
 		(pin "3"
-			(uuid "944a36fe-9a40-4aa8-beed-72162183b176")
+			(uuid "808e9925-57c1-4c86-a603-c3d240c81e05")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3843,10 +3853,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce08ad4b-395d-4514-a0e9-e574f82d1148")
+			(uuid "65ec38c7-7b5e-4bcd-be13-1606f724643d")
 		)
 		(pin "2"
-			(uuid "62daa4f7-8fad-4ddc-ba6c-eb37d9d963db")
+			(uuid "2c2a2611-2c79-4f2b-b84a-6555aa704efd")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -3938,13 +3948,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "b7cb864a-447c-4500-8ea0-4a26d8353254")
+			(uuid "fdba9b94-353e-4b11-a434-cee83faaa587")
 		)
 		(pin "1"
-			(uuid "231622ab-5702-4baa-8774-b38dbd5b81c5")
+			(uuid "2bed03fa-f3d7-41a5-9998-348646a2faa9")
 		)
 		(pin "3"
-			(uuid "2b10fdfd-f2ee-4cb6-b0b9-45b2d4dc2479")
+			(uuid "78debda1-b498-476f-98a1-ab8bf01c4702")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -4011,28 +4021,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "92e0aaa8-f166-4bc0-afb3-2a469e70b452")
+			(uuid "f1b2a294-f57e-4c1a-85d4-1ee2b1b7f99e")
 		)
 		(pin "6"
-			(uuid "c54a2980-e3cc-41e5-ad22-4fcbfa58e400")
+			(uuid "b1b1df9e-6e41-4701-a4d9-6208e15c49a1")
 		)
 		(pin "5"
-			(uuid "2289d938-fe97-4a2b-9ebb-310904fa38fd")
+			(uuid "d93a8db6-eca1-4811-a3f7-4f41682ebf4c")
 		)
 		(pin "2"
-			(uuid "3413472d-26e0-47cd-8048-9276b7e5ead2")
+			(uuid "c8f6bf83-d87e-4dc5-a1fd-cc460eb80e17")
 		)
 		(pin "1"
-			(uuid "b09cc8eb-a77e-48a0-9c01-82497e51f8ca")
+			(uuid "9425bf00-e241-481e-b34d-f9840de537ae")
 		)
 		(pin "8"
-			(uuid "37fa911d-4183-4539-9c7b-9d6f6d489c77")
+			(uuid "7bae592b-df03-4874-a7d2-56d824b8f68c")
 		)
 		(pin "3"
-			(uuid "9ae52f7a-ba0a-46e7-b5ba-7a1c33802b1b")
+			(uuid "18837a9f-3cb3-4971-9628-c0d1d2ac8206")
 		)
 		(pin "4"
-			(uuid "a40a639f-9ef3-47ce-afaa-b93eda0d6194")
+			(uuid "1aa0d82a-110e-45e9-a97b-1fff63cf458c")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -4053,7 +4063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d806a7d0-9224-4644-bac5-af4b37e3ba68")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 138.43 72.5169 0)
 			(effects
 				(font
@@ -4099,15 +4109,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "838d3f6d-e0f9-497c-9a38-ea5c9caf4f3f")
+			(uuid "a290f79c-9216-4aac-ad1b-d34cb1503da6")
 		)
 		(pin "2"
-			(uuid "ecce02e9-4630-4d51-9834-f9b2ed488b3d")
+			(uuid "98f46486-030a-4600-8873-60479a341ed5")
 		)
 		(instances
-			(project ""
+			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "C1")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4194,13 +4204,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "5a9f23b1-9f2e-442f-aed3-482ecbb9a2df")
+			(uuid "18594f4d-fb05-4924-bf8d-debc1c34cb5e")
 		)
 		(pin "1"
-			(uuid "8794e918-eef6-4fd6-ac10-2f6a561d77f4")
+			(uuid "b65d38c8-7c87-4a37-aa0a-188b28109a68")
 		)
 		(pin "3"
-			(uuid "b0e8f1e0-ce11-4f70-95b6-ba6506f4b05a")
+			(uuid "ac3d73aa-da17-45aa-b606-190190002599")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -4267,10 +4277,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "62632477-0cb1-4524-bc95-ea0f29e6e671")
+			(uuid "69e3edb7-92a9-459d-addc-fe62095ef7ed")
 		)
 		(pin "2"
-			(uuid "e1ea0f6f-1616-48b1-bcab-a9ca139a8f23")
+			(uuid "a47ecdc0-1392-40a5-b8c9-f44fe153cd25")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -4337,10 +4347,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "75d8eff2-4455-4f5d-ac3d-21a6c5d342b9")
+			(uuid "ec8f5a29-418a-4c45-835f-c158929a38a2")
 		)
 		(pin "2"
-			(uuid "a6a250b0-d9d3-4dc8-b719-91968c65b1a3")
+			(uuid "eb6c09c8-1eea-484f-870e-7bc994dcde44")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -4406,7 +4416,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c10b80c4-72d3-4eca-8058-94cecad9a818")
+			(uuid "df856161-1926-4ddb-9e7a-a3432ad8a208")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
@@ -4472,7 +4482,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc12198d-95be-46e0-8446-0b8b8e0ad1c4")
+			(uuid "2b42b75e-69b6-4162-989e-2803d05eac7b")
 		)
 		(instances
 			(project "Battery_Switchover_24V"

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 85.09 34.29)
+		(at 139.7 34.29)
 		(size 45.72 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "40a8593a-1917-4d96-a386-ebab07cd1c69")
 		(property "Sheetname" "Voltage Monitor"
-			(at 85.09 33.5784 0)
+			(at 139.7 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "Voltage_Monitor.kicad_sch"
-			(at 85.09 72.9746 0)
+			(at 139.7 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +43,48 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 34.29)
+		(size 45.72 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65a106bd-f6d2-445e-a562-641b043995e4")
+		(property "Sheetname" "Current Monitor"
+			(at 85.09 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current Monitor.kicad_sch"
+			(at 85.09 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683"
+					(page "4")
 				)
 			)
 		)

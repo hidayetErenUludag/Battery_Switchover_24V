@@ -419,6 +419,10 @@
     [
       "40a8593a-1917-4d96-a386-ebab07cd1c69",
       "Voltage Monitor"
+    ],
+    [
+      "65a106bd-f6d2-445e-a562-641b043995e4",
+      "Current Monitor"
     ]
   ],
   "text_variables": {}
