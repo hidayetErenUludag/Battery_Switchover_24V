@@ -414,11 +414,11 @@
     ],
     [
       "d26b3177-020f-497d-af2c-3252dd8d2c28",
-      "power_switch"
+      "CPU"
     ],
     [
       "40a8593a-1917-4d96-a386-ebab07cd1c69",
-      "Voltage Monitor"
+      "PowerSW"
     ],
     [
       "65a106bd-f6d2-445e-a562-641b043995e4",

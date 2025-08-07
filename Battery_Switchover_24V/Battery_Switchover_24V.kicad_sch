@@ -21,16 +21,16 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "40a8593a-1917-4d96-a386-ebab07cd1c69")
-		(property "Sheetname" "Voltage Monitor"
-			(at 139.7 33.5784 0)
+		(property "Sheetname" "PowerSW"
+			(at 139.7 32.9434 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Voltage_Monitor.kicad_sch"
+		(property "Sheetfile" "powersw.kicad_sch"
 			(at 139.7 72.9746 0)
 			(effects
 				(font
@@ -64,10 +64,10 @@
 		)
 		(uuid "65a106bd-f6d2-445e-a562-641b043995e4")
 		(property "Sheetname" "Current Monitor"
-			(at 85.09 33.5784 0)
+			(at 85.09 32.9434 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 				(justify left bottom)
 			)
@@ -105,16 +105,16 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d26b3177-020f-497d-af2c-3252dd8d2c28")
-		(property "Sheetname" "power_switch"
-			(at 30.48 33.5784 0)
+		(property "Sheetname" "CPU"
+			(at 30.48 32.9434 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power_switch.kicad_sch"
+		(property "Sheetfile" "cpu.kicad_sch"
 			(at 30.48 74.2446 0)
 			(effects
 				(font
