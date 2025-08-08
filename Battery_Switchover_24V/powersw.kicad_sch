@@ -912,131 +912,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+24V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+24V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+24V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1139,27 +1014,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Change Mosfet Count\n"
-		(exclude_from_sim no)
-		(at 176.784 24.384 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "16db5373-2cae-4cc6-bfc1-a39344d15295")
-	)
 	(junction
 		(at 33.02 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "022b25d2-9145-4636-82b2-fcedfab7ca5a")
-	)
-	(junction
-		(at 208.28 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "056909c6-a94d-45db-a5a4-d4e76dadf949")
 	)
 	(junction
 		(at 128.27 33.02)
@@ -1180,22 +1039,10 @@
 		(uuid "22124755-2bbc-4e77-ba83-632a6b181d80")
 	)
 	(junction
-		(at 196.85 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "225f38bf-00aa-4bbb-88c1-fe147818eecc")
-	)
-	(junction
 		(at 236.22 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "284f3a87-aa42-473b-b548-24ad4174d242")
-	)
-	(junction
-		(at 203.2 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2af963a7-2cfb-465a-b246-0adde411bf0d")
 	)
 	(junction
 		(at 196.85 57.15)
@@ -1216,18 +1063,6 @@
 		(uuid "42b16d38-39a0-4135-8d29-69c8d63ff0cd")
 	)
 	(junction
-		(at 226.06 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b6fdf12-782e-4520-b876-b59f760aa187")
-	)
-	(junction
-		(at 186.69 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "525989ce-f016-468c-b444-e9a7749afdfd")
-	)
-	(junction
 		(at 252.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1240,10 +1075,10 @@
 		(uuid "61dfcf31-abcc-49fc-9d58-d48d0d9eb92e")
 	)
 	(junction
-		(at 107.95 100.33)
+		(at 222.25 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8123715c-3664-4b3a-9278-a80004f4aa89")
+		(uuid "623e049e-a332-4118-afa7-d3b066da16c0")
 	)
 	(junction
 		(at 248.92 33.02)
@@ -1267,25 +1102,7 @@
 		(at 95.25 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7407d4a-8526-4572-8cb2-ee5383da1214")
-	)
-	(junction
-		(at 95.25 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd242b78-067f-4db5-ae6c-0879304ef1f5")
-	)
-	(junction
-		(at 83.82 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cec2292e-8387-4c07-a3a8-57eb2ee4a11c")
-	)
-	(junction
-		(at 101.6 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d05b1830-91c6-4ded-8e08-3921c8a883bd")
+		(uuid "a7ef2114-8c7b-4277-abfc-85096ac8b560")
 	)
 	(junction
 		(at 128.27 57.15)
@@ -1321,26 +1138,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 118.11) (xy 95.25 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bcdf22f-666d-4013-b931-c07a781bca3e")
-	)
-	(wire
-		(pts
-			(xy 203.2 40.64) (xy 203.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c0dd2e1-65a9-4de8-8b41-9720b6841a65")
-	)
-	(wire
-		(pts
 			(xy 246.38 25.4) (xy 246.38 22.86)
 		)
 		(stroke
@@ -1361,23 +1158,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 119.38) (xy 95.25 119.38)
+			(xy 222.25 62.23) (xy 222.25 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "149957e2-9b6c-4db9-baac-2655970a6dd8")
-	)
-	(wire
-		(pts
-			(xy 208.28 22.86) (xy 208.28 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27bfc3f3-a66a-41d0-bcc8-477742faa227")
+		(uuid "2171cf9b-1a01-4dbd-8f77-71a6476de1a1")
 	)
 	(wire
 		(pts
@@ -1431,16 +1218,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 90.17) (xy 107.95 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3646f487-a8ee-4336-a4ad-eb09a8703462")
-	)
-	(wire
-		(pts
 			(xy 233.68 33.02) (xy 236.22 33.02)
 		)
 		(stroke
@@ -1461,7 +1238,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 33.02) (xy 222.25 33.02)
+			(xy 201.93 33.02) (xy 222.25 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1491,23 +1268,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 40.64) (xy 203.2 40.64)
+			(xy 95.25 107.95) (xy 95.25 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46e59bda-5c83-490d-acc5-5fcc8475e7b9")
-	)
-	(wire
-		(pts
-			(xy 107.95 100.33) (xy 107.95 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c582028-5159-4d85-9c07-3f62674492b4")
+		(uuid "4ce66b74-e891-4cb4-9d5f-5761156af084")
 	)
 	(wire
 		(pts
@@ -1541,17 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 119.38) (xy 95.25 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5639f778-6d1c-478b-834b-4883f1e17297")
-	)
-	(wire
-		(pts
-			(xy 196.85 52.07) (xy 196.85 57.15)
+			(xy 196.85 40.64) (xy 196.85 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1601,16 +1358,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 33.02) (xy 208.28 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2b07bb-4761-4e7c-bd60-63c3ad433ca8")
-	)
-	(wire
-		(pts
 			(xy 242.57 33.02) (xy 246.38 33.02)
 		)
 		(stroke
@@ -1618,36 +1365,6 @@
 			(type default)
 		)
 		(uuid "7abeb8ef-fa40-49b6-bc22-4f91d27eacdb")
-	)
-	(wire
-		(pts
-			(xy 208.28 33.02) (xy 201.93 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b375d53-8ad2-480e-8934-2da64c7be5ac")
-	)
-	(wire
-		(pts
-			(xy 226.06 21.59) (xy 226.06 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c2e3032-9e7d-498f-83dd-f043dcd50811")
-	)
-	(wire
-		(pts
-			(xy 95.25 97.79) (xy 101.6 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e3fe301-57de-4ca6-bd3b-062a93b2b27b")
 	)
 	(wire
 		(pts
@@ -1681,16 +1398,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 22.86) (xy 186.69 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85d7a89c-f068-4f49-9132-bd58089fd105")
-	)
-	(wire
-		(pts
 			(xy 252.73 30.48) (xy 252.73 33.02)
 		)
 		(stroke
@@ -1711,26 +1418,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 110.49) (xy 100.33 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a343c9-8709-461e-99af-25df83e99c12")
-	)
-	(wire
-		(pts
-			(xy 186.69 33.02) (xy 186.69 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a917dd4-256c-416c-abf4-db1827dce7d1")
-	)
-	(wire
-		(pts
 			(xy 191.77 62.23) (xy 222.25 62.23)
 		)
 		(stroke
@@ -1741,13 +1428,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 33.02) (xy 191.77 33.02)
+			(xy 128.27 33.02) (xy 191.77 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9526853b-c8eb-494e-aea7-ef00c732edd2")
+	)
+	(wire
+		(pts
+			(xy 222.25 100.33) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9591b2c7-fe5c-4d73-818e-db78e5bbc2d6")
 	)
 	(wire
 		(pts
@@ -1761,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 100.33) (xy 128.27 100.33)
+			(xy 100.33 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1781,36 +1478,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 33.02) (xy 229.87 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7bcad54-a146-4f56-9f06-f0918452e519")
-	)
-	(wire
-		(pts
-			(xy 196.85 30.48) (xy 203.2 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a836f3b8-2c5b-4db8-b54c-52fe1d38137b")
-	)
-	(wire
-		(pts
-			(xy 203.2 30.48) (xy 203.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0bddf1c-c3a1-4cd6-9b73-319290b44df8")
-	)
-	(wire
-		(pts
 			(xy 34.29 140.97) (xy 34.29 142.24)
 		)
 		(stroke
@@ -1818,16 +1485,6 @@
 			(type default)
 		)
 		(uuid "b6e45adb-608a-4489-b5c7-e7552f0a7b4e")
-	)
-	(wire
-		(pts
-			(xy 100.33 100.33) (xy 107.95 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75a19a9-44b4-429d-b383-5b547f75013c")
 	)
 	(wire
 		(pts
@@ -1901,26 +1558,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 100.33) (xy 83.82 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c911f343-854f-4631-ba73-be7c738bdd3c")
-	)
-	(wire
-		(pts
-			(xy 208.28 43.18) (xy 201.93 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca536bb6-c32e-4057-98d4-b6cdf7d64c20")
-	)
-	(wire
-		(pts
 			(xy 246.38 33.02) (xy 248.92 33.02)
 		)
 		(stroke
@@ -1951,16 +1588,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 22.86) (xy 191.77 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6eede9d-74f6-4d09-9142-fed821bf3093")
-	)
-	(wire
-		(pts
 			(xy 242.57 38.1) (xy 242.57 40.64)
 		)
 		(stroke
@@ -1968,76 +1595,6 @@
 			(type default)
 		)
 		(uuid "d7220e47-280c-4132-97e3-da50b7370201")
-	)
-	(wire
-		(pts
-			(xy 83.82 90.17) (xy 90.17 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d920374b-80df-44a7-b036-0e9035072e97")
-	)
-	(wire
-		(pts
-			(xy 33.02 100.33) (xy 83.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d958533b-a43d-4f88-9536-247d26622655")
-	)
-	(wire
-		(pts
-			(xy 83.82 110.49) (xy 90.17 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9d3dd76-a9b9-49d1-9eed-ea6d03d36662")
-	)
-	(wire
-		(pts
-			(xy 196.85 50.8) (xy 196.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9e3c43-8ae0-4bc2-8b94-06aaecc7ffac")
-	)
-	(wire
-		(pts
-			(xy 128.27 33.02) (xy 186.69 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de41e2da-d7dc-4153-8d32-d63877b0ad56")
-	)
-	(wire
-		(pts
-			(xy 203.2 52.07) (xy 196.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de6bdab8-f944-4e3f-82ff-5933595c7c09")
-	)
-	(wire
-		(pts
-			(xy 107.95 90.17) (xy 100.33 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff372c0-fce4-414f-b52f-98070ac4d31a")
 	)
 	(wire
 		(pts
@@ -2051,23 +1608,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 33.02) (xy 226.06 33.02)
+			(xy 222.25 33.02) (xy 229.87 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e24efaa8-961a-4ebb-9c98-d69acb8cabdf")
-	)
-	(wire
-		(pts
-			(xy 101.6 107.95) (xy 101.6 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2ec3d77-527c-4e58-8cef-42869f87d149")
 	)
 	(wire
 		(pts
@@ -2101,26 +1648,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 43.18) (xy 191.77 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb7eb01-6da6-423d-ae33-cb078d7d0ad2")
-	)
-	(wire
-		(pts
-			(xy 95.25 107.95) (xy 101.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3290002-3455-405a-ade0-2859fa37d894")
-	)
-	(wire
-		(pts
 			(xy 128.27 33.02) (xy 128.27 57.15)
 		)
 		(stroke
@@ -2131,27 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 22.86) (xy 201.93 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f458c900-7077-440f-9b59-83dbd6c7f64e")
-	)
-	(wire
-		(pts
-			(xy 83.82 90.17) (xy 83.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5f8ac65-57fc-48e6-9a22-e0e170a5a619")
-	)
-	(wire
-		(pts
-			(xy 83.82 100.33) (xy 90.17 100.33)
+			(xy 33.02 100.33) (xy 90.17 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2169,16 +1676,6 @@
 		)
 		(uuid "fc22e3a4-f99e-4430-bb92-4caf482d9b80")
 	)
-	(wire
-		(pts
-			(xy 101.6 97.79) (xy 101.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca6fa47-dc88-4b25-85eb-ddb1e8459da2")
-	)
 	(label "Vbatt"
 		(at 128.27 33.02 0)
 		(effects
@@ -2188,6 +1685,28 @@
 			(justify left bottom)
 		)
 		(uuid "0205a074-895e-44c3-a592-f32c2c368085")
+	)
+	(global_label "Vin"
+		(shape input)
+		(at 24.13 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c91b9a4-0742-4cd0-8ac2-0eb5e56b1f52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3024 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "Vbatt"
 		(shape input)
@@ -2249,6 +1768,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "NMOS"
@@ -2341,7 +1861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09fe942c-1252-45b1-a055-f874fe0e5a2c")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 166.37 46.99 0)
 			(effects
 				(font
@@ -2413,7 +1933,7 @@
 		(instances
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2501,6 +2021,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "NMOS"
@@ -2509,6 +2030,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2864,72 +2386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 226.06 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d18eef5-49bd-4498-80d1-052e021dec1f")
-		(property "Reference" "#PWR015"
-			(at 226.06 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 226.06 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 226.06 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afc80690-3cfa-4487-9ee4-e59af7ce6bff")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 246.38 22.86 180)
 		(unit 1)
@@ -3005,7 +2461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3c76df-acfd-42ee-81ee-c5dff0ff9848")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 102.87 50.8 0)
 			(effects
 				(font
@@ -3055,7 +2511,7 @@
 		(instances
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3122,104 +2578,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 196.85 45.72 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74f01fcf-602f-4520-b110-044bbdf82267")
-		(property "Reference" "Q7"
-			(at 196.85 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 196.85 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 184.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 196.85 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 179.705 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 177.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f271983-6d18-4724-9b14-7a32d01d8358")
-		)
-		(pin "1"
-			(uuid "b29232e3-fec7-4878-a161-1063c27aada8")
-		)
-		(pin "3"
-			(uuid "d3a8db0d-8239-4c9f-a8e7-8abb29fc8204")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -3301,7 +2659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858dc1db-a2b5-4d25-a6ad-2449361e6422")
-		(property "Reference" "BT?"
+		(property "Reference" "BT1"
 			(at 106.68 34.9884 0)
 			(effects
 				(font
@@ -3355,7 +2713,7 @@
 		(instances
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "BT?")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -3634,170 +2992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 24.13 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6619805-f7e2-4da7-8d8c-64bfd8ed773b")
-		(property "Reference" "#PWR?"
-			(at 24.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 24.13 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 24.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35d0b5d1-63b3-46fc-8564-60460682f3d0")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 196.85 25.4 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfa7ecbb-b8f4-4a84-aa59-fb1f3520225b")
-		(property "Reference" "Q5"
-			(at 196.85 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 196.85 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 184.15 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 196.85 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 179.705 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 177.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 181.61 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "871b6d2b-8c40-48b3-83ee-1944186e8cc6")
-		)
-		(pin "1"
-			(uuid "49245274-9ece-4ed7-9531-3b43be8485f6")
-		)
-		(pin "3"
-			(uuid "808e9925-57c1-4c86-a603-c3d240c81e05")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 233.68 27.94 180)
 		(unit 1)
@@ -3862,104 +3056,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 95.25 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d24d2789-f52a-44d5-a496-9b5ddb5dc12c")
-		(property "Reference" "Q4"
-			(at 95.25 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 95.25 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 82.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 95.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 78.105 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 76.2 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fdba9b94-353e-4b11-a434-cee83faaa587")
-		)
-		(pin "1"
-			(uuid "2bed03fa-f3d7-41a5-9998-348646a2faa9")
-		)
-		(pin "3"
-			(uuid "78debda1-b498-476f-98a1-ab8bf01c4702")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4063,7 +3159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d806a7d0-9224-4644-bac5-af4b37e3ba68")
-		(property "Reference" "C?"
+		(property "Reference" "C26"
 			(at 138.43 72.5169 0)
 			(effects
 				(font
@@ -4117,105 +3213,7 @@
 		(instances
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 95.25 113.03 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d975cb77-a8ec-4e6b-b205-879db064da4a")
-		(property "Reference" "Q2"
-			(at 95.25 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 95.25 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 82.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 95.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 78.105 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 76.2 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 80.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "18594f4d-fb05-4924-bf8d-debc1c34cb5e")
-		)
-		(pin "1"
-			(uuid "b65d38c8-7c87-4a37-aa0a-188b28109a68")
-		)
-		(pin "3"
-			(uuid "ac3d73aa-da17-45aa-b606-190190002599")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "Q2")
+					(reference "C26")
 					(unit 1)
 				)
 			)
