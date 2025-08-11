@@ -1409,6 +1409,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3887,6 +4070,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Main Voltage\n"
+		(exclude_from_sim no)
+		(at 229.108 123.698 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59e56a8a-4347-4260-beee-9011fc7d4e61")
+	)
 	(junction
 		(at 107.95 147.32)
 		(diameter 0)
@@ -4385,6 +4578,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 128.27) (xy 232.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd4f0b4-7397-40d4-b56c-62e56f3ea485")
+	)
+	(wire
+		(pts
 			(xy 113.03 99.06) (xy 113.03 102.87)
 		)
 		(stroke
@@ -4472,6 +4675,16 @@
 			(type default)
 		)
 		(uuid "365907b3-cabd-4e25-8021-a3d6e201e610")
+	)
+	(wire
+		(pts
+			(xy 240.03 128.27) (xy 240.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c08f4d-ea11-48d3-8a3a-67a0fea8bc35")
 	)
 	(wire
 		(pts
@@ -4605,6 +4818,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 128.27) (xy 255.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4561bf53-5fdb-4886-a88c-d346fdc08437")
+	)
+	(wire
+		(pts
 			(xy 176.53 30.48) (xy 184.15 30.48)
 		)
 		(stroke
@@ -4705,6 +4928,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 128.27) (xy 247.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533296ef-318d-46dd-b386-47712c919afb")
+	)
+	(wire
+		(pts
 			(xy 137.16 167.64) (xy 132.08 167.64)
 		)
 		(stroke
@@ -4785,6 +5018,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 138.43) (xy 247.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635cb57b-923e-4b70-a6dd-845ee789b87f")
+	)
+	(wire
+		(pts
 			(xy 177.8 53.34) (xy 173.99 53.34)
 		)
 		(stroke
@@ -4855,6 +5098,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 118.11) (xy 255.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b6aefe-7c6e-4b56-b179-783081a9d8d0")
+	)
+	(wire
+		(pts
 			(xy 24.13 95.25) (xy 20.32 95.25)
 		)
 		(stroke
@@ -4902,6 +5155,16 @@
 			(type default)
 		)
 		(uuid "78320218-6bdd-435a-879d-e002174f89e3")
+	)
+	(wire
+		(pts
+			(xy 232.41 118.11) (xy 232.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b59aba0-9b37-4ca8-89ae-2e2841c2695e")
 	)
 	(wire
 		(pts
@@ -5005,6 +5268,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 118.11) (xy 240.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8953d0ec-5e71-4a02-996c-4b915cd4d9e4")
+	)
+	(wire
+		(pts
 			(xy 127 157.48) (xy 127 167.64)
 		)
 		(stroke
@@ -5025,6 +5298,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 138.43) (xy 240.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecaf3dc-3efe-4e48-aaa3-3f69bc1a4778")
+	)
+	(wire
+		(pts
 			(xy 123.19 163.83) (xy 123.19 167.64)
 		)
 		(stroke
@@ -5032,6 +5315,16 @@
 			(type default)
 		)
 		(uuid "8f9b6409-e031-4640-8369-fc4c23cb79ed")
+	)
+	(wire
+		(pts
+			(xy 247.65 118.11) (xy 247.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f53709-c58f-4a7b-a287-708148b5a3dc")
 	)
 	(wire
 		(pts
@@ -5185,6 +5478,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 60.96) (xy 138.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b3facc-f779-476c-b180-9e8eb38fd1ff")
+	)
+	(wire
+		(pts
 			(xy 16.51 95.25) (xy 20.32 95.25)
 		)
 		(stroke
@@ -5232,6 +5535,16 @@
 			(type default)
 		)
 		(uuid "c3c2e4e9-cce4-48fa-92c3-bff0a5b04c11")
+	)
+	(wire
+		(pts
+			(xy 255.27 138.43) (xy 255.27 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45df490-9eb2-4b25-b714-819e14f1daf6")
 	)
 	(wire
 		(pts
@@ -5355,6 +5668,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 55.88) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9699eae-a204-4c85-b826-0c211acfde54")
+	)
+	(wire
+		(pts
 			(xy 43.18 62.23) (xy 39.37 62.23)
 		)
 		(stroke
@@ -5362,6 +5685,16 @@
 			(type default)
 		)
 		(uuid "da895451-3a3b-45f5-b391-d883641e025b")
+	)
+	(wire
+		(pts
+			(xy 232.41 138.43) (xy 232.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de112361-4bf5-4841-9990-f70054a27055")
 	)
 	(wire
 		(pts
@@ -5475,6 +5808,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 58.42) (xy 138.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34efd21-336a-474f-87d1-9e92c9b8af1e")
+	)
+	(wire
+		(pts
 			(xy 88.9 157.48) (xy 88.9 167.64)
 		)
 		(stroke
@@ -5523,6 +5866,50 @@
 		)
 		(uuid "fccba1d0-024e-4837-bd8a-9714a5bd4753")
 	)
+	(global_label "Fan_Status"
+		(shape input)
+		(at 132.08 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "038ea099-107d-49fb-ac53-ffa7e9030615")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7516 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Main_Voltage"
+		(shape input)
+		(at 132.08 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "09768f92-53c7-455c-a779-0622336ebb2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.3547 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VREF3"
 		(shape input)
 		(at 177.8 83.82 0)
@@ -5541,6 +5928,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Battery_Status"
+		(shape input)
+		(at 132.08 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "192247f2-f5dc-429f-98f8-b17cd439948b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.4233 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5699,6 +6108,50 @@
 			)
 		)
 	)
+	(global_label "Main_Voltage"
+		(shape input)
+		(at 232.41 140.97 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "9e8ea630-edf2-4fe6-8c30-072e00deee6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 151.6953 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Battery_Status"
+		(shape input)
+		(at 240.03 140.97 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "a751cf46-e2b8-4626-a6a2-90cb3de6f5c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 152.6267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESET"
 		(shape input)
 		(at 62.23 24.13 0)
@@ -5717,6 +6170,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Fan_Status"
+		(shape input)
+		(at 247.65 140.97 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "ad87b972-bff2-4d2a-8e12-f14769c8e340")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 150.2984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5920,6 +6395,92 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 247.65 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "125ba6cb-8173-43d1-bbad-025907d1e942")
+		(property "Reference" "R6"
+			(at 249.6902 134.7345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 245.6262 134.4805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 245.872 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" ""
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "RND"
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0581ca3d-06aa-4958-8275-6e7db893dee5")
+		)
+		(pin "2"
+			(uuid "8cdd4721-1ab6-4b1d-82a9-84814b6088b9")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6641,6 +7202,171 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "336dd972-6f5c-47e6-b4fe-bf527ea1599c")
+		(property "Reference" "R4"
+			(at 234.4502 134.7345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 230.3862 134.4805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.632 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" ""
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "RND"
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ae776c3-a5b6-4cc7-98ee-39afaf6374c1")
+		)
+		(pin "2"
+			(uuid "658d3784-5d77-48f8-98a2-dbca67e75aba")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 255.27 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b02c817-d49c-419d-b763-712b4f5e3840")
+		(property "Reference" "D6"
+			(at 259.08 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 259.08 127.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 255.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 255.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8af8c0d-408f-47ca-a16e-bdcb2945afe3")
+		)
+		(pin "2"
+			(uuid "56db12f4-8f84-45ba-8d0a-e7bf225ec13c")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7414,6 +8140,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 240.03 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63167f59-7eac-4c12-bfb8-33952c11f802")
+		(property "Reference" "R5"
+			(at 242.0702 134.7345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 238.0062 134.4805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 238.252 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" ""
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "RND"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70ae322a-b98a-4cb4-be1c-01578c2be31f")
+		)
+		(pin "2"
+			(uuid "49f2c1c5-caa1-43d4-8ebc-cc9c7bfe9a3c")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 44.45 139.7 180)
 		(unit 1)
@@ -7543,6 +8355,72 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 240.03 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6492ff2f-ecff-4a6b-888e-d99be02badcc")
+		(property "Reference" "#PWR031"
+			(at 240.03 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca78df33-3a8c-4b7f-a401-939155e1af71")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7683,6 +8561,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 247.65 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69bbcb61-3de8-4a98-986f-deb3faa73dda")
+		(property "Reference" "#PWR032"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbe43c2e-169f-416b-a86b-618770a155fb")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:L5973D")
 		(at 86.36 149.86 0)
 		(unit 1)
@@ -7769,6 +8713,85 @@
 			(project ""
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 232.41 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8fae92-5d68-45de-b55e-28164fb830d0")
+		(property "Reference" "D3"
+			(at 236.22 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 236.22 127.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cad8533-7ba6-484a-b431-96d27f39a506")
+		)
+		(pin "2"
+			(uuid "ed786fd3-d554-497e-b5ac-6f76227e84e0")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8721,6 +9744,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 240.03 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2b63d33-fcb1-4fe7-b3dd-1238d5f0f316")
+		(property "Reference" "D4"
+			(at 243.84 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 243.84 127.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "216fb2d8-b848-4835-a68d-60fee2e7840d")
+		)
+		(pin "2"
+			(uuid "51deb187-b54b-4522-8402-97379a3daeac")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 167.64 26.67 0)
 		(unit 1)
@@ -9172,6 +10274,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 232.41 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e029d425-ff82-4416-8d43-ca0643ea96d1")
+		(property "Reference" "#PWR030"
+			(at 232.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 232.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a23cdd2b-e79e-4253-8530-5ab238ee43fa")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 49.53 67.31 90)
 		(mirror x)
@@ -9459,6 +10627,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 247.65 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb79a704-5139-4173-b22f-2585df5d279e")
+		(property "Reference" "D5"
+			(at 251.46 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 251.968 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75410818-f173-4764-970f-5beea86ebc07")
+		)
+		(pin "2"
+			(uuid "78c02142-39d2-487c-abe4-af8a33066c84")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:ESDA5V3SC5")
 		(at 64.77 96.52 0)
 		(unit 1)
@@ -9601,6 +10847,158 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 255.27 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3aae58-6768-403e-9726-bcc051d39d93")
+		(property "Reference" "#PWR033"
+			(at 255.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 255.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1426838b-0103-4bce-9c5f-da978bd21094")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 255.27 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc6ff7d4-3bc5-4ec4-b938-d1ea7f461cd0")
+		(property "Reference" "R7"
+			(at 257.3102 134.7345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 253.2462 134.4805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 253.492 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" ""
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "RND"
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b925d1be-ac74-4ca9-81ec-438b7b0f2ba7")
+		)
+		(pin "2"
+			(uuid "3d84a88c-f7f8-42d1-aede-b5e644a2614c")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "R7")
 					(unit 1)
 				)
 			)

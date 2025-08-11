@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 194.31 34.29)
+		(size 46.99 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61e6564d-1def-4c7b-94e3-39d84e389366")
+		(property "Sheetname" "Temp Controll"
+			(at 194.31 32.9434 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tempControll.kicad_sch"
+			(at 194.31 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 85.09 34.29)
 		(size 46.99 39.37)
 		(exclude_from_sim no)
