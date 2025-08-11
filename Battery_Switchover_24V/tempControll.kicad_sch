@@ -1930,6 +1930,50 @@
 		)
 		(uuid "e9fef5e6-bc1e-4614-bfdb-3ddfdaf311b7")
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 106.68 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "5d05852f-7c0a-4eb4-9882-9c59e4a942f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.2249 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 106.68 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "c0d6c9f7-2924-4738-a0dd-ec325b54c72f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.2672 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vsupply"
 		(shape input)
 		(at 152.4 38.1 90)
