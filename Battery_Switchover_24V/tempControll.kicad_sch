@@ -674,7 +674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f9a8e84-f7fd-4e79-96f5-a42747845daf")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR058"
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -724,7 +724,7 @@
 		(instances
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
-					(reference "#PWR049")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -740,7 +740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3875ee71-79c2-476e-8549-6d9b021c2e3f")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 157.48 59.69 0)
 			(effects
 				(font
@@ -797,7 +797,7 @@
 		(instances
 			(project ""
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -812,7 +812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49800fd3-5ba6-4f0c-83c4-e03d715c4801")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -830,7 +830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127 76.2 0)
 			(effects
 				(font
@@ -866,7 +866,7 @@
 		(instances
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -882,7 +882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ddfa7e9-2622-403f-8c0d-88bf0f8ff6e4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR059"
 			(at 190.5 93.98 0)
 			(effects
 				(font
@@ -932,7 +932,7 @@
 		(instances
 			(project ""
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
-					(reference "#PWR034")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -948,7 +948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b50bbe17-72f7-4302-94ee-c77fc8b91e9f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR057"
 			(at 124.46 66.04 0)
 			(effects
 				(font
@@ -998,7 +998,7 @@
 		(instances
 			(project ""
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
-					(reference "#PWR035")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
