@@ -5281,6 +5281,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 149.86) (xy 152.4 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48252be7-8e94-4e03-9031-8f2774373af8")
+	)
+	(wire
+		(pts
 			(xy 41.91 60.96) (xy 72.39 60.96)
 		)
 		(stroke
@@ -5688,6 +5698,16 @@
 			(type default)
 		)
 		(uuid "cdfffcbc-7b98-414f-bdb4-750c7a5d622b")
+	)
+	(wire
+		(pts
+			(xy 152.4 165.1) (xy 152.4 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29d7d4b-acd2-4f0d-b152-ac7a24fc85df")
 	)
 	(wire
 		(pts
@@ -6698,92 +6718,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2197xD")
-		(at 109.22 154.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11a2e943-127a-41fa-9d35-07843edcfcac")
-		(property "Reference" "U2"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2197xD"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 106.68 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-			(at 102.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 109.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5f8d44d-77c9-4066-aa70-9bbfe63789b6")
-		)
-		(pin "1"
-			(uuid "674e6f8f-4350-4423-8ad8-a9e35c74db24")
-		)
-		(pin "6"
-			(uuid "a7607784-effb-4af7-b670-47ea688bc8f0")
-		)
-		(pin "5"
-			(uuid "cb4c91d9-8bf7-4081-ad07-395526c0ec84")
-		)
-		(pin "7"
-			(uuid "0d4460e4-43ad-418f-a5e1-79d1e5cb52c1")
-		)
-		(pin "3"
-			(uuid "41009245-dc46-4935-af6c-1e98b91d7142")
-		)
-		(pin "8"
-			(uuid "7349faf6-2368-4cd0-be62-e1bf31cdcb1c")
-		)
-		(pin "4"
-			(uuid "1db205a4-a6f7-4c6b-a697-22910bec0171")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8024,6 +7958,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 52.07 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ad7da8b-e9c1-43d0-b20f-5ded0d460404")
+		(property "Reference" "U14"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2197xD"
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 49.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da5ba5b5-f67b-4101-82ab-59f484e14e43")
+		)
+		(pin "3"
+			(uuid "363ea3e4-a878-4809-87eb-a8ccb531ba6e")
+		)
+		(pin "5"
+			(uuid "5c2b54eb-6b2f-431a-a7e2-6127f2f4a984")
+		)
+		(pin "1"
+			(uuid "fc84ddd3-3139-4e7d-8ca0-8d5995dd4685")
+		)
+		(pin "6"
+			(uuid "9700d4e5-230b-403a-be06-107599c5d035")
+		)
+		(pin "7"
+			(uuid "8fe8a918-3d5a-41c2-b525-56b687ac38f1")
+		)
+		(pin "8"
+			(uuid "cba94a6a-8b06-4bc6-8c8c-2b74f08769a5")
+		)
+		(pin "4"
+			(uuid "69a6ae67-a8df-4790-96be-85b193c77715")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 177.8 0)
 		(unit 1)
@@ -8598,6 +8618,94 @@
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "R5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 152.4 157.48 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6614d772-8a54-479b-9992-8195319e3d09")
+		(property "Reference" "U1"
+			(at 153.67 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2197xD"
+			(at 153.67 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 158.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 152.4 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da5ba5b5-f67b-4101-82ab-59f484e14e44")
+		)
+		(pin "3"
+			(uuid "363ea3e4-a878-4809-87eb-a8ccb531ba6f")
+		)
+		(pin "5"
+			(uuid "5c2b54eb-6b2f-431a-a7e2-6127f2f4a985")
+		)
+		(pin "1"
+			(uuid "fc84ddd3-3139-4e7d-8ca0-8d5995dd4686")
+		)
+		(pin "6"
+			(uuid "9700d4e5-230b-403a-be06-107599c5d036")
+		)
+		(pin "7"
+			(uuid "8fe8a918-3d5a-41c2-b525-56b687ac38f2")
+		)
+		(pin "8"
+			(uuid "cba94a6a-8b06-4bc6-8c8c-2b74f08769a6")
+		)
+		(pin "4"
+			(uuid "69a6ae67-a8df-4790-96be-85b193c77716")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -9309,6 +9417,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 109.22 154.94 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ded44bb-97ce-44f8-9e81-72370582afd8")
+		(property "Reference" "U1"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2197xD"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 106.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da5ba5b5-f67b-4101-82ab-59f484e14e45")
+		)
+		(pin "3"
+			(uuid "363ea3e4-a878-4809-87eb-a8ccb531ba70")
+		)
+		(pin "5"
+			(uuid "5c2b54eb-6b2f-431a-a7e2-6127f2f4a986")
+		)
+		(pin "1"
+			(uuid "fc84ddd3-3139-4e7d-8ca0-8d5995dd4687")
+		)
+		(pin "6"
+			(uuid "9700d4e5-230b-403a-be06-107599c5d037")
+		)
+		(pin "7"
+			(uuid "8fe8a918-3d5a-41c2-b525-56b687ac38f3")
+		)
+		(pin "8"
+			(uuid "cba94a6a-8b06-4bc6-8c8c-2b74f08769a7")
+		)
+		(pin "4"
+			(uuid "69a6ae67-a8df-4790-96be-85b193c77717")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 115.57 0)
 		(unit 1)
@@ -9443,7 +9637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 189.23 0)
+		(at 152.4 163.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9453,7 +9647,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2a9ba08-e994-471a-847f-d417045c1b9f")
 		(property "Reference" "#PWR09"
-			(at 92.71 195.58 0)
+			(at 152.4 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,7 +9656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 194.31 0)
+			(at 152.4 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,7 +9664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 189.23 0)
+			(at 152.4 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,7 +9673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 189.23 0)
+			(at 152.4 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9488,7 +9682,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 189.23 0)
+			(at 152.4 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +9852,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 92.71 173.99 0)
+		(at 152.4 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9667,7 +9861,7 @@
 		(fields_autoplaced yes)
 		(uuid "d39f35e0-4666-4dd0-a87f-5c2eed89b6ca")
 		(property "Reference" "#PWR08"
-			(at 92.71 177.8 0)
+			(at 152.4 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9676,7 +9870,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 168.91 0)
+			(at 152.4 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +9878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 173.99 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 173.99 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 173.99 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,92 +9911,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2197xD")
-		(at 52.07 154.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7286f69-e1bc-4f81-8aea-90bf952bcc33")
-		(property "Reference" "U1"
-			(at 52.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2197xD"
-			(at 52.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 49.53 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-			(at 45.72 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 52.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3055e95-8b5f-4de0-8280-dcdb21033456")
-		)
-		(pin "1"
-			(uuid "4118437c-bedc-4313-bcab-8e4e1e4d39f7")
-		)
-		(pin "6"
-			(uuid "ae8a607b-231e-42e3-a772-3927b3a982f3")
-		)
-		(pin "5"
-			(uuid "2ad40aa7-506d-497f-a9df-d09b01065eea")
-		)
-		(pin "7"
-			(uuid "a7afbad8-e3f3-41b8-972a-c3d416c96a2e")
-		)
-		(pin "3"
-			(uuid "71a1e484-4f13-47e6-8fb6-18ccf0b4181e")
-		)
-		(pin "8"
-			(uuid "7349faf6-2368-4cd0-be62-e1bf31cdcb1e")
-		)
-		(pin "4"
-			(uuid "1db205a4-a6f7-4c6b-a697-22910bec0173")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "U1")
 					(unit 1)
 				)
 			)
