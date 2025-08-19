@@ -7415,7 +7415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "PZT2222AT1G"
 			(at 278.13 144.7799 0)
 			(effects
 				(font
@@ -7424,7 +7424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 336.55 143.51 0)
 			(effects
 				(font
@@ -7515,7 +7515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4007"
 			(at 270.51 130.8099 90)
 			(effects
 				(font
@@ -7524,7 +7524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
 			(at 267.97 129.54 0)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 264.16 69.85 0)
 			(effects
 				(font
@@ -8813,7 +8813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "HL-PSC-2012S9AC"
 			(at 264.16 69.85 0)
 			(effects
 				(font
@@ -9018,7 +9018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 275.59 130.556 0)
 			(effects
 				(font
@@ -9240,7 +9240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
 			(at 201.93 24.13 0)
 			(effects
 				(font
@@ -9730,7 +9730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 271.78 69.85 0)
 			(effects
 				(font
@@ -9944,7 +9944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
 			(at 194.31 24.13 0)
 			(effects
 				(font
@@ -10425,7 +10425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 41.91 16.51 0)
 			(effects
 				(font
@@ -10496,7 +10496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 279.4 69.85 0)
 			(effects
 				(font

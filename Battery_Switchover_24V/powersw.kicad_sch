@@ -4935,7 +4935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
 			(at 96.52 256.54 0)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal"
 			(at 165.1 148.336 90)
 			(effects
 				(font
@@ -5912,7 +5912,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
-			(at 358.14 104.14 0)
+			(at 379.476 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
 			(at 198.12 185.42 0)
 			(effects
 				(font

@@ -2879,7 +2879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:IND_XAL6060_COC-L"
 			(at 161.29 113.03 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 152.4 116.84 0)
 			(effects
 				(font
@@ -4399,7 +4399,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
-			(at 85.09 106.68 0)
+			(at 90.424 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
