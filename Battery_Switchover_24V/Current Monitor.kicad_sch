@@ -425,6 +425,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1318,6 +1495,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 38.1) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05286af6-5e02-42cd-8545-825f1540288f")
+	)
+	(wire
+		(pts
 			(xy 175.26 93.98) (xy 175.26 97.79)
 		)
 		(stroke
@@ -1455,6 +1642,16 @@
 			(type default)
 		)
 		(uuid "26d9531d-5906-42ea-b24e-0dfe64c2c8cd")
+	)
+	(wire
+		(pts
+			(xy 49.53 38.1) (xy 49.53 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b187547-f096-4661-89a8-79a10407f665")
 	)
 	(wire
 		(pts
@@ -1755,6 +1952,16 @@
 			(type default)
 		)
 		(uuid "6299d310-6f22-4577-b684-2ab4b7e9b9dd")
+	)
+	(wire
+		(pts
+			(xy 67.31 25.4) (xy 67.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df70849-79d9-4c6f-8a24-534d1233af1b")
 	)
 	(wire
 		(pts
@@ -2298,6 +2505,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 25.4) (xy 49.53 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dace3ad8-827b-4c8a-9d92-2576106018d1")
+	)
+	(wire
+		(pts
 			(xy 193.04 137.16) (xy 193.04 133.35)
 		)
 		(stroke
@@ -2398,6 +2615,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 38.1) (xy 31.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f318840e-2a62-482b-9b0c-2abaf8752344")
+	)
+	(wire
+		(pts
 			(xy 160.02 30.48) (xy 165.1 30.48)
 		)
 		(stroke
@@ -2415,6 +2642,16 @@
 			(type default)
 		)
 		(uuid "f471af23-b685-4f55-afb0-7319098bb3b9")
+	)
+	(wire
+		(pts
+			(xy 31.75 25.4) (xy 31.75 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fb263c-c947-4b46-ae80-d33b81819a50")
 	)
 	(wire
 		(pts
@@ -2446,35 +2683,29 @@
 		)
 		(uuid "ffbe878f-3b14-4a77-aeaa-074c7cf0824a")
 	)
-	(label "Load_Lovv"
-		(at 100.33 73.66 0)
+	(global_label "Load3"
+		(shape input)
+		(at 31.75 25.4 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
+				(thickness 0.254)
+				(bold yes)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "26b46f84-cf01-48d7-921a-338a075507f2")
-	)
-	(label "Load_Lovv"
-		(at 100.33 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "06a2de9b-ed0c-4655-a575-a163a4c50082")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 18.7752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "32cadb69-c1fe-4f9f-b1ca-49c5d3c0075d")
-	)
-	(label "Load_Lovv"
-		(at 100.33 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46f23959-d0be-4729-b6ea-997dd5500f9a")
 	)
 	(global_label "VREF3"
 		(shape input)
@@ -2520,6 +2751,54 @@
 			)
 		)
 	)
+	(global_label "Load3"
+		(shape input)
+		(at 100.33 118.11 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "34e84830-5053-4f4f-b199-9bcae3dae941")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 111.4852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Load1"
+		(shape input)
+		(at 100.33 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "39d97d52-d453-42d7-ad55-15583ad38c0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 18.7752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VIOUT3"
 		(shape input)
 		(at 198.12 133.35 0)
@@ -2533,6 +2812,78 @@
 		(uuid "56bf9600-1d9d-4d69-8a2e-7eb42f2fc654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.7814 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Load1"
+		(shape input)
+		(at 67.31 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "67d93f54-bec5-49f1-a1df-70c941674601")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 18.7752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Load2"
+		(shape input)
+		(at 49.53 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "86246ab6-3314-443b-9be7-70a7216c032c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 18.7752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Load2"
+		(shape input)
+		(at 100.33 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8749bbae-0e53-4f25-88bd-519a5ed9afca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 67.0352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,6 +3359,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 49.53 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1170a6e8-0e5d-4cd8-a661-f68889a68b61")
+		(property "Reference" "#PWR082"
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR2"
+			(at 49.403 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3364e2eb-caf5-4794-bc67-aabbb1b10498")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 147.32 0)
 		(unit 1)
@@ -3200,6 +3617,76 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 31.75 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3268c846-3a8f-47ea-9fca-0fa01282e197")
+		(property "Reference" "BT6"
+			(at 35.56 32.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 35.56 34.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal"
+			(at 31.75 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb5dc762-68ee-4596-9bb1-fb6de27cc474")
+		)
+		(pin "1"
+			(uuid "0a0fb78f-6727-4c23-aba7-22214034e259")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
+					(reference "BT6")
 					(unit 1)
 				)
 			)
@@ -4102,6 +4589,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 67.31 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4d8f43-3258-491b-a319-8f5dd0620957")
+		(property "Reference" "BT4"
+			(at 71.12 32.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 71.12 34.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal"
+			(at 67.31 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5708aa6-49d7-4b5b-a2be-a201b72215c0")
+		)
+		(pin "1"
+			(uuid "026506c5-c7f5-486f-beed-fde0bcd031fc")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 187.96 95.25 180)
 		(unit 1)
@@ -4234,6 +4791,72 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 67.31 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a73303dd-9362-4fc8-a157-934728115780")
+		(property "Reference" "#PWR081"
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR1"
+			(at 67.183 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84745230-be42-4491-b314-f315e4f537b3")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4962,6 +5585,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 49.53 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebe46593-9477-441e-9b26-1c98a376bd22")
+		(property "Reference" "BT5"
+			(at 53.34 32.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 53.34 34.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal"
+			(at 49.53 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf2cf195-4f62-41ff-9bd8-212575b18dc1")
+		)
+		(pin "1"
+			(uuid "b0fc1392-6ae9-411d-a288-775ce732b9b7")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
+					(reference "BT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 54.61 0)
 		(unit 1)
@@ -5088,6 +5781,72 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 31.75 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbdb3546-d295-4cc4-ba44-d64ea02b43dc")
+		(property "Reference" "#PWR083"
+			(at 31.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR3"
+			(at 31.623 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc91897e-1aba-4346-82f8-055b1de6ae5a")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/65a106bd-f6d2-445e-a562-641b043995e4"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)

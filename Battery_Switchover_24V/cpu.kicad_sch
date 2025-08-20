@@ -4694,10 +4694,22 @@
 		(uuid "b9e7ad63-b8d5-425d-9e40-2a5ce92fb245")
 	)
 	(junction
+		(at 166.37 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8459751-5ee0-42e1-865a-670f1a9ae090")
+	)
+	(junction
 		(at 185.42 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc88a518-19df-43fd-9da8-b1df96967186")
+	)
+	(junction
+		(at 152.4 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccba0095-0082-4968-88fd-f78ec548f149")
 	)
 	(junction
 		(at 194.31 21.59)
@@ -4898,6 +4910,16 @@
 			(type default)
 		)
 		(uuid "0e7110ab-9604-49fe-aa80-d49a888ee04e")
+	)
+	(wire
+		(pts
+			(xy 152.4 148.59) (xy 166.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11659cd5-4766-4406-b86a-b1516c6d23d9")
 	)
 	(wire
 		(pts
@@ -5238,6 +5260,16 @@
 			(type default)
 		)
 		(uuid "3ff3b02f-4b36-4a00-8f53-d8a4475ee195")
+	)
+	(wire
+		(pts
+			(xy 166.37 153.67) (xy 166.37 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d95c5b-a4bb-4c38-b466-5eba199d0cea")
 	)
 	(wire
 		(pts
@@ -5861,6 +5893,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 148.59) (xy 172.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1c2871-8fd5-4bd0-8380-b4d83057e39d")
+	)
+	(wire
+		(pts
 			(xy 46.99 21.59) (xy 49.53 21.59)
 		)
 		(stroke
@@ -5968,6 +6010,16 @@
 			(type default)
 		)
 		(uuid "fd3d2c29-1c2a-49f9-bcc7-702ef2303c75")
+	)
+	(wire
+		(pts
+			(xy 172.72 153.67) (xy 172.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd5a201-0ae1-45b2-ab85-310bc53c1eec")
 	)
 	(global_label "Fan_Status"
 		(shape input)
@@ -8926,6 +8978,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 172.72 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73cfc797-1089-4dea-b674-7498295dbf6a")
+		(property "Reference" "#PWR078"
+			(at 172.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0c60c26-350c-4758-b97e-871425ea6548")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 80.01 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9350,6 +9469,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9804b86c-97bb-4ca0-ac45-538668af2581")
+		(property "Reference" "C44"
+			(at 166.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 166.37 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0763b814-4c4b-4ad4-838e-2189c64b3b1d")
+		)
+		(pin "1"
+			(uuid "fe7eb581-36d6-4a56-9399-79d020cb56ff")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 33.02 0)
 		(mirror y)
@@ -9563,6 +9751,142 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 172.72 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a37f5eaa-0c4c-4e62-8216-af8415370b7f")
+		(property "Reference" "C45"
+			(at 172.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 172.72 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 172.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d01852e-9af9-4ce5-8c6f-b52ca70db692")
+		)
+		(pin "1"
+			(uuid "c5458873-ab11-4ed6-a21d-93b12844dba3")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c74fa2a8-8602-4e7b-a3bc-d5a9bdd9f0ae")
+		(property "Reference" "#PWR079"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "651f5291-7f6e-4a4d-bbe1-80a1d05038cb")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
