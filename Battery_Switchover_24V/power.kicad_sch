@@ -1615,6 +1615,12 @@
 		(uuid "0754b2d6-d769-42d1-a768-aa36a3deaec6")
 	)
 	(junction
+		(at 189.23 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e928a8e-943e-4755-8510-e9002f72c03c")
+	)
+	(junction
 		(at 176.53 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2126,6 +2132,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 113.03) (xy 193.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d03c79-4072-4edb-bd52-f5ccbc6cbf5b")
+	)
+	(wire
+		(pts
 			(xy 167.64 121.92) (xy 167.64 124.46)
 		)
 		(stroke
@@ -2196,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 113.03) (xy 193.04 113.03)
+			(xy 186.69 113.03) (xy 189.23 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2356,6 +2372,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 125.73) (xy 189.23 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f5eada-7650-41fd-a7f8-94efc7a65231")
+	)
+	(wire
+		(pts
 			(xy 105.41 109.22) (xy 105.41 110.49)
 		)
 		(stroke
@@ -2403,6 +2429,16 @@
 			(type default)
 		)
 		(uuid "f6bdfdc2-719a-43be-9bf0-54c21555f68f")
+	)
+	(wire
+		(pts
+			(xy 189.23 113.03) (xy 189.23 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8aaf3b4-4669-4afa-b6f2-4ee73c41774a")
 	)
 	(wire
 		(pts
@@ -3766,6 +3802,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 189.23 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85b2e444-d753-4571-8e48-16644c393b2a")
+		(property "Reference" "D11"
+			(at 191.77 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:P26_DO-214AA_SMB"
+			(at 189.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 189.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8791f17-39af-49af-ada1-39f50567e31a")
+		)
+		(pin "1"
+			(uuid "01429bfb-46d7-4cdb-a359-ce08fa4d7c8b")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/0650697f-8d34-4346-a93f-e65dd5d58ae8"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 133.35 0)
 		(unit 1)
@@ -3961,6 +4067,72 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/0650697f-8d34-4346-a93f-e65dd5d58ae8"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b763614-ed9c-4a3b-b846-285e14e1520d")
+		(property "Reference" "#PWR084"
+			(at 189.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9034b9b8-ee35-4b0b-ab4a-e4ae42191382")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/0650697f-8d34-4346-a93f-e65dd5d58ae8"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)

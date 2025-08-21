@@ -1038,146 +1038,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small_US"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "capacitor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_US_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -0.762)
-					(mid 0 -0.3734)
-					(end 1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_US_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Crystal"
 			(pin_numbers
 				(hide yes)
@@ -4586,6 +4446,12 @@
 		(uuid "3bb32531-f23c-40ad-8299-55ca855a1b81")
 	)
 	(junction
+		(at 201.93 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "408ccf11-f984-4e81-8b65-265fbb69ac06")
+	)
+	(junction
 		(at 148.59 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4676,12 +4542,6 @@
 		(uuid "a48567e7-7e05-46c6-ac9e-65cd49f3fe29")
 	)
 	(junction
-		(at 201.93 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a765d3ae-d6f5-41e2-adbc-47572b2ba1c1")
-	)
-	(junction
 		(at 128.27 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4715,7 +4575,7 @@
 		(at 194.31 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2c83976-3d55-4a2a-a080-83fc4ddce515")
+		(uuid "e295148b-b7c9-487c-86f0-ab50c63361ce")
 	)
 	(junction
 		(at 185.42 21.59)
@@ -5343,16 +5203,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 21.59) (xy 185.42 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5297794b-7955-4cf3-ae01-d9dcc4cb59f8")
-	)
-	(wire
-		(pts
 			(xy 279.4 73.66) (xy 279.4 76.2)
 		)
 		(stroke
@@ -5693,7 +5543,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 21.59) (xy 201.93 21.59)
+			(xy 185.42 21.59) (xy 194.31 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6010,6 +5860,16 @@
 			(type default)
 		)
 		(uuid "fd3d2c29-1c2a-49f9-bcc7-702ef2303c75")
+	)
+	(wire
+		(pts
+			(xy 194.31 21.59) (xy 201.93 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7d77c4-9950-4438-95c0-3176e8b1f406")
 	)
 	(wire
 		(pts
@@ -6925,6 +6785,75 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15fccc5b-7e4f-46a3-863a-b60e7d903303")
+		(property "Reference" "C7"
+			(at 201.93 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 199.898 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 201.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2b43b89-68de-4a5f-b087-bae72a66fd5b")
+		)
+		(pin "1"
+			(uuid "abbf7872-eed2-48f2-b992-0a3259c7aac0")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8010,92 +7939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2197xD")
-		(at 52.07 154.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ad7da8b-e9c1-43d0-b20f-5ded0d460404")
-		(property "Reference" "U14"
-			(at 52.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2197xD"
-			(at 52.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 49.53 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-			(at 45.72 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 52.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da5ba5b5-f67b-4101-82ab-59f484e14e43")
-		)
-		(pin "3"
-			(uuid "363ea3e4-a878-4809-87eb-a8ccb531ba6e")
-		)
-		(pin "5"
-			(uuid "5c2b54eb-6b2f-431a-a7e2-6127f2f4a984")
-		)
-		(pin "1"
-			(uuid "fc84ddd3-3139-4e7d-8ca0-8d5995dd4685")
-		)
-		(pin "6"
-			(uuid "9700d4e5-230b-403a-be06-107599c5d035")
-		)
-		(pin "7"
-			(uuid "8fe8a918-3d5a-41c2-b525-56b687ac38f1")
-		)
-		(pin "8"
-			(uuid "cba94a6a-8b06-4bc6-8c8c-2b74f08769a5")
-		)
-		(pin "4"
-			(uuid "69a6ae67-a8df-4790-96be-85b193c77715")
-		)
-		(instances
-			(project ""
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 66.04 177.8 0)
 		(unit 1)
@@ -8675,94 +8518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2197xD")
-		(at 152.4 157.48 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6614d772-8a54-479b-9992-8195319e3d09")
-		(property "Reference" "U1"
-			(at 153.67 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2197xD"
-			(at 153.67 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 154.94 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-			(at 158.75 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 152.4 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da5ba5b5-f67b-4101-82ab-59f484e14e44")
-		)
-		(pin "3"
-			(uuid "363ea3e4-a878-4809-87eb-a8ccb531ba6f")
-		)
-		(pin "5"
-			(uuid "5c2b54eb-6b2f-431a-a7e2-6127f2f4a985")
-		)
-		(pin "1"
-			(uuid "fc84ddd3-3139-4e7d-8ca0-8d5995dd4686")
-		)
-		(pin "6"
-			(uuid "9700d4e5-230b-403a-be06-107599c5d036")
-		)
-		(pin "7"
-			(uuid "8fe8a918-3d5a-41c2-b525-56b687ac38f2")
-		)
-		(pin "8"
-			(uuid "cba94a6a-8b06-4bc6-8c8c-2b74f08769a6")
-		)
-		(pin "4"
-			(uuid "69a6ae67-a8df-4790-96be-85b193c77716")
-		)
-		(instances
-			(project ""
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 279.4 66.04 0)
 		(unit 1)
@@ -9246,6 +9001,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 52.07 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "816be8b8-e0a6-4a89-aa26-baa57729f883")
+		(property "Reference" "U14"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2197xD"
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 49.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dcde7504-ce01-4e73-a7d2-02d8ac0f75a9")
+		)
+		(pin "6"
+			(uuid "2dd4f2d0-d46c-4fed-942c-45e9b84948bd")
+		)
+		(pin "5"
+			(uuid "36090df7-b26e-46d0-a753-2028e36d3a10")
+		)
+		(pin "2"
+			(uuid "3f63f49b-77c5-4a77-b78e-9f261d41e0e2")
+		)
+		(pin "7"
+			(uuid "6a30d3dc-7059-4c01-aeba-70d852d96fb2")
+		)
+		(pin "3"
+			(uuid "f7d174ce-7e2d-4c40-b6be-b3a3d2d2bf87")
+		)
+		(pin "1"
+			(uuid "b2acb91a-ea1d-4629-8563-39a050a0742f")
+		)
+		(pin "4"
+			(uuid "f943f7c4-214d-4b54-ba08-ddde6ed56690")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 80.01 147.32 0)
 		(mirror x)
@@ -9326,76 +9167,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 201.93 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "912cb1b5-4132-44bd-8525-7173951cc7c2")
-		(property "Reference" "C7"
-			(at 204.47 22.9869 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 204.47 25.5269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
-			(at 201.93 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 201.93 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "160418c9-b355-4ce0-abef-bede3b29e21d")
-		)
-		(pin "1"
-			(uuid "95eb17b3-e27a-485c-95f6-0aa6f39915a3")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9538,6 +9309,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98e36738-a82a-473b-ba49-8e3a09797695")
+		(property "Reference" "C6"
+			(at 194.31 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 192.278 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b827f35-8e3b-4b4e-ba60-3799f35d5c77")
+		)
+		(pin "1"
+			(uuid "e3c1969e-2f0b-40a2-9883-720b91fb9aad")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 33.02 0)
 		(mirror y)
@@ -9600,92 +9440,6 @@
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "#PWR02")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2197xD")
-		(at 109.22 154.94 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ded44bb-97ce-44f8-9e81-72370582afd8")
-		(property "Reference" "U1"
-			(at 109.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2197xD"
-			(at 109.22 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 106.68 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-			(at 102.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 109.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da5ba5b5-f67b-4101-82ab-59f484e14e45")
-		)
-		(pin "3"
-			(uuid "363ea3e4-a878-4809-87eb-a8ccb531ba70")
-		)
-		(pin "5"
-			(uuid "5c2b54eb-6b2f-431a-a7e2-6127f2f4a986")
-		)
-		(pin "1"
-			(uuid "fc84ddd3-3139-4e7d-8ca0-8d5995dd4687")
-		)
-		(pin "6"
-			(uuid "9700d4e5-230b-403a-be06-107599c5d037")
-		)
-		(pin "7"
-			(uuid "8fe8a918-3d5a-41c2-b525-56b687ac38f3")
-		)
-		(pin "8"
-			(uuid "cba94a6a-8b06-4bc6-8c8c-2b74f08769a7")
-		)
-		(pin "4"
-			(uuid "69a6ae67-a8df-4790-96be-85b193c77717")
-		)
-		(instances
-			(project ""
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)
@@ -9821,6 +9575,180 @@
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "C45")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 109.22 154.94 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8531be9-0e66-4592-a3ba-c56229a817d3")
+		(property "Reference" "U14"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2197xD"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 106.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dcde7504-ce01-4e73-a7d2-02d8ac0f75aa")
+		)
+		(pin "6"
+			(uuid "2dd4f2d0-d46c-4fed-942c-45e9b84948be")
+		)
+		(pin "5"
+			(uuid "36090df7-b26e-46d0-a753-2028e36d3a11")
+		)
+		(pin "2"
+			(uuid "3f63f49b-77c5-4a77-b78e-9f261d41e0e3")
+		)
+		(pin "7"
+			(uuid "6a30d3dc-7059-4c01-aeba-70d852d96fb3")
+		)
+		(pin "3"
+			(uuid "f7d174ce-7e2d-4c40-b6be-b3a3d2d2bf88")
+		)
+		(pin "1"
+			(uuid "b2acb91a-ea1d-4629-8563-39a050a07430")
+		)
+		(pin "4"
+			(uuid "f943f7c4-214d-4b54-ba08-ddde6ed56691")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "U14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 152.4 157.48 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad9565f7-7c3d-4c84-83eb-e2b3736c48c1")
+		(property "Reference" "U14"
+			(at 153.67 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2197xD"
+			(at 153.67 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 158.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 152.4 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dcde7504-ce01-4e73-a7d2-02d8ac0f75ab")
+		)
+		(pin "6"
+			(uuid "2dd4f2d0-d46c-4fed-942c-45e9b84948bf")
+		)
+		(pin "5"
+			(uuid "36090df7-b26e-46d0-a753-2028e36d3a12")
+		)
+		(pin "2"
+			(uuid "3f63f49b-77c5-4a77-b78e-9f261d41e0e4")
+		)
+		(pin "7"
+			(uuid "6a30d3dc-7059-4c01-aeba-70d852d96fb4")
+		)
+		(pin "3"
+			(uuid "f7d174ce-7e2d-4c40-b6be-b3a3d2d2bf89")
+		)
+		(pin "1"
+			(uuid "b2acb91a-ea1d-4629-8563-39a050a07431")
+		)
+		(pin "4"
+			(uuid "f943f7c4-214d-4b54-ba08-ddde6ed56692")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
+					(reference "U14")
+					(unit 3)
 				)
 			)
 		)
@@ -10235,76 +10163,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 194.31 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8e5bc4d-edf2-4e5b-b446-c1f7d254eb33")
-		(property "Reference" "C6"
-			(at 196.85 22.9869 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 196.85 25.5269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
-			(at 194.31 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 194.31 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "15e44598-a8ac-4541-8fac-b06792d7968d")
-		)
-		(pin "1"
-			(uuid "ee6392c2-b560-48a1-8c78-068edf47d570")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "C6")
 					(unit 1)
 				)
 			)
