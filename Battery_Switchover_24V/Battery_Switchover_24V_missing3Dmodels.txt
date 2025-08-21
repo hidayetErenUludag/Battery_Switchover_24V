@@ -1,0 +1,26 @@
+### Missing 3D models - created on 2025-08-21 14:57
+### Printed by checking_3D_models plugin
+Board file: C:\Users\HP\Documents\GitHub\Battery_Switchover_24V\Battery_Switchover_24V\Battery_Switchover_24V.kicad_pcb
+3D missing models written to:
+C:\Users\HP\Documents\GitHub\Battery_Switchover_24V\Battery_Switchover_24V\Battery_Switchover_24V_missing3Dmodels.txt
+-------
+('J1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Connector_USB.3dshapes\\USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step')
+('D9', '${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl')
+('D9', 'F:/data/Elektronik/KiCad/Models/Diotec-3D-Models/p26_SMB_DO-214AA.stp')
+('BT5', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\TerminalBlock_RND.3dshapes\\TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal.step')
+('D11', '${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl')
+('D11', 'F:/data/Elektronik/KiCad/Models/Diotec-3D-Models/p26_SMB_DO-214AA.stp')
+('BT3', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\TerminalBlock_RND.3dshapes\\TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal.step')
+('BT6', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\TerminalBlock_RND.3dshapes\\TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal.step')
+('D7', '${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl')
+('D7', 'F:/data/Elektronik/KiCad/Models/Diotec-3D-Models/p26_SMB_DO-214AA.stp')
+('BT2', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\TerminalBlock_RND.3dshapes\\TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal.step')
+('D6', '${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl')
+('D6', 'F:/data/Elektronik/KiCad/Models/Diotec-3D-Models/p26_SMB_DO-214AA.stp')
+('BT1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\TerminalBlock_RND.3dshapes\\TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal.step')
+('D8', '${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl')
+('D8', 'F:/data/Elektronik/KiCad/Models/Diotec-3D-Models/p26_SMB_DO-214AA.stp')
+('BT4', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\TerminalBlock_RND.3dshapes\\TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal.step')
+-------
+NUM of 3D missing models:17
+checked extensions ['.stp', '.step', '.stpZ']
