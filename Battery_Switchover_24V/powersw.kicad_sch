@@ -5,6 +5,834 @@
 	(uuid "4ec196c1-2567-4218-a76b-58a890cdaef1")
 	(paper "A3")
 	(lib_symbols
+		(symbol "3x2 MOLEX:10845060"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "10845060"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "10845060"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_SDA_42002-xxxxx_06_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10845060_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "10845060_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CM5441Z161B-10:CM5441Z101B-10"
 			(pin_names
 				(offset 0.254)
@@ -2325,6 +3153,12 @@
 		(uuid "326db28f-d3e7-45a0-9d7d-cdb784f0b8fc")
 	)
 	(junction
+		(at 80.01 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b8dce0-848f-4264-928e-47d8ccfc82bf")
+	)
+	(junction
 		(at 111.76 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2335,6 +3169,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "361a4f22-e8e1-4bde-a68a-60829c1fcaa2")
+	)
+	(junction
+		(at 80.01 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36dc7d4f-f77d-4e0e-8646-34f92e294939")
+	)
+	(junction
+		(at 80.01 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "411f5cdd-faf0-4e00-8557-40a7a7fb6ff7")
+	)
+	(junction
+		(at 31.75 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44f63f54-0338-4e5a-bdfa-423a052630c2")
 	)
 	(junction
 		(at 119.38 179.07)
@@ -2403,6 +3255,12 @@
 		(uuid "6ffd79ea-65c9-4136-a53f-dde2d13cfc97")
 	)
 	(junction
+		(at 31.75 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "702edf5c-2a98-4828-9947-df8de0fff938")
+	)
+	(junction
 		(at 284.48 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2445,6 +3303,12 @@
 		(uuid "87d98cf7-6424-4373-ae74-52f9e36a0f42")
 	)
 	(junction
+		(at 80.01 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ae8316c-5f31-4c9e-8d7c-108ac05ec849")
+	)
+	(junction
 		(at 274.32 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2461,6 +3325,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9acd426e-5f8d-48fc-9832-391c27cb3b39")
+	)
+	(junction
+		(at 31.75 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b6e8c76-70d6-45a0-bbe6-6b801aa80684")
 	)
 	(junction
 		(at 237.49 109.22)
@@ -2517,6 +3387,12 @@
 		(uuid "c8a19fcb-a7e8-42a8-abbc-709b16644452")
 	)
 	(junction
+		(at 80.01 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb6a7f50-02e3-47d1-aceb-876f3807826e")
+	)
+	(junction
 		(at 341.63 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2533,6 +3409,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf485577-2710-4f7c-b986-ad0759b10c08")
+	)
+	(junction
+		(at 80.01 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7f13bf8-c8ec-4932-a994-31d73d1cf785")
 	)
 	(junction
 		(at 190.5 179.07)
@@ -2565,10 +3447,28 @@
 		(uuid "e77f8ad4-8632-46d6-b8a9-f8a62c373117")
 	)
 	(junction
+		(at 31.75 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eabad2fa-558a-486c-aabf-f66eb7ec9a46")
+	)
+	(junction
+		(at 31.75 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb113550-7a10-48dd-ba7d-3af76b672c5e")
+	)
+	(junction
 		(at 190.5 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ede13bc4-21a2-4f1c-a1ab-4114a4b81caf")
+	)
+	(junction
+		(at 31.75 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7c57c00-fde9-4b10-b085-30daf17cb35c")
 	)
 	(junction
 		(at 259.08 156.21)
@@ -2607,6 +3507,16 @@
 			(type default)
 		)
 		(uuid "016a8f1d-9e30-40a6-8dd6-f7dfd4661c93")
+	)
+	(wire
+		(pts
+			(xy 80.01 161.29) (xy 80.01 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07578390-58f2-494b-8515-8f04e11b35c6")
 	)
 	(wire
 		(pts
@@ -2790,7 +3700,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 154.94) (xy 60.96 162.56)
+			(xy 31.75 149.86) (xy 31.75 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 170.18) (xy 60.96 175.26)
+			(xy 31.75 171.45) (xy 31.75 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2930,6 +3840,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 168.91) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488b2545-d499-4947-b9f3-fcf17cc2bcb8")
+	)
+	(wire
+		(pts
 			(xy 199.39 144.78) (xy 199.39 148.59)
 		)
 		(stroke
@@ -3010,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 154.94) (xy 80.01 162.56)
+			(xy 80.01 154.94) (xy 80.01 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3037,6 +3957,16 @@
 			(type default)
 		)
 		(uuid "5f4e3913-f036-417e-bce9-3237469a5197")
+	)
+	(wire
+		(pts
+			(xy 31.75 161.29) (xy 31.75 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6149861f-382a-41f9-bce9-91593fdb95b9")
 	)
 	(wire
 		(pts
@@ -3090,6 +4020,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 166.37) (xy 31.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9356a0-3325-42a7-890a-3941cc61a255")
+	)
+	(wire
+		(pts
 			(xy 237.49 109.22) (xy 220.98 109.22)
 		)
 		(stroke
@@ -3117,6 +4057,16 @@
 			(type default)
 		)
 		(uuid "6df2d64f-d864-49a2-b4fb-e77ddf57fd35")
+	)
+	(wire
+		(pts
+			(xy 31.75 158.75) (xy 31.75 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709bd824-45dd-436c-ab8a-fdb7ad6e3095")
 	)
 	(wire
 		(pts
@@ -3150,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 170.18) (xy 80.01 175.26)
+			(xy 80.01 171.45) (xy 80.01 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3350,6 +4300,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 158.75) (xy 80.01 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e7e89f-006b-451a-8a91-1569cc566c52")
+	)
+	(wire
+		(pts
 			(xy 259.08 168.91) (xy 254 168.91)
 		)
 		(stroke
@@ -3517,6 +4477,16 @@
 			(type default)
 		)
 		(uuid "b9cbbc91-2555-4cd9-abb0-73e40f55c54f")
+	)
+	(wire
+		(pts
+			(xy 31.75 168.91) (xy 31.75 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb58cd26-3e48-493b-9bad-ab7dbe2bc0da")
 	)
 	(wire
 		(pts
@@ -3737,6 +4707,16 @@
 			(type default)
 		)
 		(uuid "d03374ee-dc3e-48ef-8489-2cecef749bab")
+	)
+	(wire
+		(pts
+			(xy 80.01 166.37) (xy 80.01 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cae1a4-8a9a-435a-a583-b3dd0e1c450d")
 	)
 	(wire
 		(pts
@@ -4128,7 +5108,7 @@
 	)
 	(global_label "Vin"
 		(shape input)
-		(at 60.96 154.94 90)
+		(at 31.75 149.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4138,13 +5118,95 @@
 		)
 		(uuid "ce5ee8e4-1064-4ab5-82a8-69b0bd05c07d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 149.1124 90)
+			(at 31.75 144.0324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x2 MOLEX:10845060")
+		(at 80.01 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "016f7939-9fd6-4e19-b647-9c2a73c0b8cc")
+		(property "Reference" "J10"
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10845060"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f534f01b-3d25-4804-9b79-95d112b7ac4a")
+		)
+		(pin "4"
+			(uuid "301a8a4f-a41c-4c8a-9d22-32c5edabe54c")
+		)
+		(pin "1"
+			(uuid "e9a8bcf2-754d-439e-990c-59a204f5e651")
+		)
+		(pin "2"
+			(uuid "7a495a05-471f-4db4-a820-3519ef807a2e")
+		)
+		(pin "5"
+			(uuid "f3e215aa-6cc6-4112-9493-56c64b15733b")
+		)
+		(pin "6"
+			(uuid "399b45e3-1557-4b68-b9e0-479ba95f5188")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "J10")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4279,6 +5341,88 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x2 MOLEX:10845060")
+		(at 31.75 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a41dab-b436-4b75-9534-e52754febccd")
+		(property "Reference" "J7"
+			(at 22.86 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10845060"
+			(at 22.86 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d886531-7253-42fe-b0f5-a40eb788b58a")
+		)
+		(pin "4"
+			(uuid "be9f7229-e318-498e-b281-a877a8481a8a")
+		)
+		(pin "1"
+			(uuid "90984f98-5395-4c4e-a7e0-ba0a42fb8e6f")
+		)
+		(pin "2"
+			(uuid "2a9ad932-77ff-49cd-b42f-aceb1d69dc8a")
+		)
+		(pin "5"
+			(uuid "74933b6f-b24f-4925-b42a-a00091dc3472")
+		)
+		(pin "6"
+			(uuid "e7badedd-fa7c-45fc-8c0c-cc5c1b1e42e1")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4775,76 +5919,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 60.96 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "218eceba-c318-4c8e-867e-b650e13449c4")
-		(property "Reference" "BT2"
-			(at 64.77 164.5284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 64.77 167.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal"
-			(at 60.96 166.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 166.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 60.96 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ecb3bbb-0952-4793-aa07-92f817975967")
-		)
-		(pin "1"
-			(uuid "58ca8837-b332-4803-bc13-e4a95f7beeee")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 341.63 111.76 0)
 		(unit 1)
@@ -4974,6 +6048,88 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x2 MOLEX:10845060")
+		(at 80.01 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b08121-a25b-40a8-9a19-861413521b52")
+		(property "Reference" "J9"
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10845060"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "27665954-7301-4f08-8b0a-28dbb3d4be87")
+		)
+		(pin "4"
+			(uuid "17f2a920-b58e-462b-a892-a76a0d5b3785")
+		)
+		(pin "1"
+			(uuid "0b69030e-205d-4ca2-bb72-f7bd6a3df510")
+		)
+		(pin "2"
+			(uuid "f53d2f59-93f9-4737-99eb-e13c89ab1935")
+		)
+		(pin "5"
+			(uuid "5812e5fd-8d9c-4785-8f63-922ab86baa24")
+		)
+		(pin "6"
+			(uuid "f336cc64-ec8f-496e-b7d4-937fccc29d23")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5618,7 +6774,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 175.26 0)
+		(at 31.75 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5627,7 +6783,7 @@
 		(fields_autoplaced yes)
 		(uuid "71dc78f1-b0da-4414-817f-075113ab8603")
 		(property "Reference" "#PWR077"
-			(at 60.96 181.61 0)
+			(at 31.75 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +6792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 180.34 0)
+			(at 31.75 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +6800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 175.26 0)
+			(at 31.75 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +6809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 175.26 0)
+			(at 31.75 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +6818,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 175.26 0)
+			(at 31.75 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,6 +7242,88 @@
 		)
 	)
 	(symbol
+		(lib_id "3x2 MOLEX:10845060")
+		(at 80.01 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d2fe885-ce08-41ff-96f6-ead747525100")
+		(property "Reference" "J11"
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10845060"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "045c8c4f-dcbb-4a0c-ad23-29b17c0c1030")
+		)
+		(pin "4"
+			(uuid "401a27c3-39d0-4bed-94a4-10fb7fd252d7")
+		)
+		(pin "1"
+			(uuid "803118b9-7d36-4b08-94fe-22dbf1b3975c")
+		)
+		(pin "2"
+			(uuid "dfcb809a-7081-49be-b6b3-82310f355fc9")
+		)
+		(pin "5"
+			(uuid "0bb1f37e-2c12-4b77-83e5-d344212488a2")
+		)
+		(pin "6"
+			(uuid "d42ce982-e0a0-4d27-b856-4789aa8d6021")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 347.98 111.76 0)
 		(unit 1)
@@ -6410,76 +7648,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 80.01 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdcf0f25-24a2-40a5-88a7-bcb030f18998")
-		(property "Reference" "BT3"
-			(at 83.82 164.5284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 83.82 167.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal"
-			(at 80.01 166.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 166.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 80.01 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6902803f-a8f3-461d-aee5-16006a0c2917")
-		)
-		(pin "1"
-			(uuid "19a8e3c2-f3f0-4d6c-8bbb-9806292c45b6")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "BT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 368.3 119.38 90)
 		(unit 1)
@@ -6689,7 +7857,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 175.26 0)
+		(at 80.01 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6698,7 +7866,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8aa0f4f-05ad-4f25-ae64-432195261210")
 		(property "Reference" "#PWR080"
-			(at 80.01 181.61 0)
+			(at 80.01 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +7875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 180.34 0)
+			(at 80.01 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +7883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 175.26 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +7892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 175.26 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +7901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 175.26 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,6 +8079,88 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x2 MOLEX:10845060")
+		(at 31.75 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf346242-a502-4015-8e45-47f43dfa9906")
+		(property "Reference" "J8"
+			(at 22.86 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10845060"
+			(at 22.86 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "73af82a5-359f-4570-b497-f7330efadb16")
+		)
+		(pin "4"
+			(uuid "f03d0860-2e4a-45a9-b185-2b6f382ec166")
+		)
+		(pin "1"
+			(uuid "f72b5ab8-b5f2-4b60-b265-fffbdc39e911")
+		)
+		(pin "2"
+			(uuid "dd801e12-8649-4f43-8b9d-cc14334ff246")
+		)
+		(pin "5"
+			(uuid "a15ffadb-24dd-4290-8033-19b7225a3f9a")
+		)
+		(pin "6"
+			(uuid "c3a0b5c1-14af-402b-93ef-d00e05e226e0")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7421,6 +8671,88 @@
 			(project ""
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "XMER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x2 MOLEX:10845060")
+		(at 31.75 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f69ac8e4-e0a5-45b2-95fb-5356ed1f75e4")
+		(property "Reference" "J6"
+			(at 22.86 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10845060"
+			(at 22.86 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7540d4ae-ee68-4677-8a9c-df7e3b5898ee")
+		)
+		(pin "4"
+			(uuid "f1789c00-208e-4b57-a623-84275e7a8a6b")
+		)
+		(pin "1"
+			(uuid "166b7d1a-6c56-4f76-ad1f-519243a272e7")
+		)
+		(pin "2"
+			(uuid "5da5b5af-336d-4b02-ab7b-5e89bfd8326a")
+		)
+		(pin "5"
+			(uuid "c2532978-dcd1-40bf-acd4-e3c05851cdbd")
+		)
+		(pin "6"
+			(uuid "985e857b-80df-4040-9bb3-f7cff8d75c81")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "J6")
 					(unit 1)
 				)
 			)
