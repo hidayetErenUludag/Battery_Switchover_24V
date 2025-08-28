@@ -4672,10 +4672,6 @@
 		(uuid "c0615c21-6768-4a73-bd9d-9acfb89a521d")
 	)
 	(no_connect
-		(at 156.21 63.5)
-		(uuid "cd1d179e-8e8d-4078-a54c-3ef03e926e29")
-	)
-	(no_connect
 		(at 156.21 60.96)
 		(uuid "d1c4bddc-eb7e-4223-bb75-36184c846ada")
 	)
@@ -6229,6 +6225,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Temp_data"
+		(shape input)
+		(at 156.21 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "9095f228-dfca-4301-b165-19e3b7fd5075")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.0934 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
