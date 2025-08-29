@@ -5,7 +5,7 @@
 	(uuid "4ec196c1-2567-4218-a76b-58a890cdaef1")
 	(paper "A3")
 	(lib_symbols
-		(symbol "3x2 MOLEX:10845060"
+		(symbol "3X2MOLEX:430450612"
 			(pin_names
 				(offset 0.254)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "10845060"
+			(property "Value" "430450612"
 				(at 0 0 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
+			(property "Footprint" "CONN_SD-43045-005_06_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/430450612?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "10845060"
+			(property "ki_keywords" "430450612"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CONN_SDA_42002-xxxxx_06_MOL"
+			(property "ki_fp_filters" "CONN_SD-43045-005_06_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "10845060_1_1"
+			(symbol "430450612_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -15.24)
@@ -457,7 +457,7 @@
 					)
 				)
 			)
-			(symbol "10845060_1_2"
+			(symbol "430450612_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -15.24)
@@ -3105,6 +3105,12 @@
 		(uuid "0fd55cd4-84ed-41c9-87e6-27c52a7c751b")
 	)
 	(junction
+		(at 80.01 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13ec06d9-9c0f-4a1f-94d3-6e4e3eb1c1fb")
+	)
+	(junction
 		(at 142.24 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3147,16 +3153,16 @@
 		(uuid "2a738a37-520b-46ee-a354-08eb8b451a78")
 	)
 	(junction
+		(at 80.01 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "301837b2-1548-489f-8dc6-19ce40f0d878")
+	)
+	(junction
 		(at 143.51 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "326db28f-d3e7-45a0-9d7d-cdb784f0b8fc")
-	)
-	(junction
-		(at 80.01 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32b8dce0-848f-4264-928e-47d8ccfc82bf")
 	)
 	(junction
 		(at 111.76 212.09)
@@ -3169,24 +3175,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "361a4f22-e8e1-4bde-a68a-60829c1fcaa2")
-	)
-	(junction
-		(at 80.01 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36dc7d4f-f77d-4e0e-8646-34f92e294939")
-	)
-	(junction
-		(at 80.01 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "411f5cdd-faf0-4e00-8557-40a7a7fb6ff7")
-	)
-	(junction
-		(at 31.75 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44f63f54-0338-4e5a-bdfa-423a052630c2")
 	)
 	(junction
 		(at 119.38 179.07)
@@ -3255,12 +3243,6 @@
 		(uuid "6ffd79ea-65c9-4136-a53f-dde2d13cfc97")
 	)
 	(junction
-		(at 31.75 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "702edf5c-2a98-4828-9947-df8de0fff938")
-	)
-	(junction
 		(at 284.48 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3273,6 +3255,12 @@
 		(uuid "75a62075-e3a6-460b-9445-60e505ca6490")
 	)
 	(junction
+		(at 80.01 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7685b0bc-8bd6-4ea0-a75c-2b990e810c51")
+	)
+	(junction
 		(at 199.39 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3283,6 +3271,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c441cf5-028f-4e14-ade9-e1351f638454")
+	)
+	(junction
+		(at 80.01 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d183cf5-2482-49cc-80fc-3a7e3e13ba9b")
 	)
 	(junction
 		(at 254 109.22)
@@ -3303,16 +3297,16 @@
 		(uuid "87d98cf7-6424-4373-ae74-52f9e36a0f42")
 	)
 	(junction
-		(at 80.01 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ae8316c-5f31-4c9e-8d7c-108ac05ec849")
-	)
-	(junction
 		(at 274.32 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c4128e6-5ddd-4641-a7f1-d662d9933db8")
+	)
+	(junction
+		(at 80.01 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce2b404-bee6-4737-8047-b506c252e3bd")
 	)
 	(junction
 		(at 368.3 109.22)
@@ -3325,12 +3319,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9acd426e-5f8d-48fc-9832-391c27cb3b39")
-	)
-	(junction
-		(at 31.75 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b6e8c76-70d6-45a0-bbe6-6b801aa80684")
 	)
 	(junction
 		(at 237.49 109.22)
@@ -3387,12 +3375,6 @@
 		(uuid "c8a19fcb-a7e8-42a8-abbc-709b16644452")
 	)
 	(junction
-		(at 80.01 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb6a7f50-02e3-47d1-aceb-876f3807826e")
-	)
-	(junction
 		(at 341.63 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3411,10 +3393,10 @@
 		(uuid "cf485577-2710-4f7c-b986-ad0759b10c08")
 	)
 	(junction
-		(at 80.01 166.37)
+		(at 80.01 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7f13bf8-c8ec-4932-a994-31d73d1cf785")
+		(uuid "d2ffb104-76e0-4152-8f27-16fcec19fcea")
 	)
 	(junction
 		(at 190.5 179.07)
@@ -3447,28 +3429,10 @@
 		(uuid "e77f8ad4-8632-46d6-b8a9-f8a62c373117")
 	)
 	(junction
-		(at 31.75 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eabad2fa-558a-486c-aabf-f66eb7ec9a46")
-	)
-	(junction
-		(at 31.75 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb113550-7a10-48dd-ba7d-3af76b672c5e")
-	)
-	(junction
 		(at 190.5 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ede13bc4-21a2-4f1c-a1ab-4114a4b81caf")
-	)
-	(junction
-		(at 31.75 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7c57c00-fde9-4b10-b085-30daf17cb35c")
 	)
 	(junction
 		(at 259.08 156.21)
@@ -3507,16 +3471,6 @@
 			(type default)
 		)
 		(uuid "016a8f1d-9e30-40a6-8dd6-f7dfd4661c93")
-	)
-	(wire
-		(pts
-			(xy 80.01 161.29) (xy 80.01 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07578390-58f2-494b-8515-8f04e11b35c6")
 	)
 	(wire
 		(pts
@@ -3700,17 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 149.86) (xy 31.75 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "300d0550-4cde-4b37-a41e-398e76b82762")
-	)
-	(wire
-		(pts
-			(xy 31.75 171.45) (xy 31.75 179.07)
+			(xy 31.75 166.37) (xy 31.75 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3747,6 +3691,16 @@
 			(type default)
 		)
 		(uuid "39083269-c172-4564-aeed-fc7f2f3579f5")
+	)
+	(wire
+		(pts
+			(xy 80.01 158.75) (xy 80.01 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b17a93e-15ea-4426-b353-f01dc2ce05c1")
 	)
 	(wire
 		(pts
@@ -3810,6 +3764,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 161.29) (xy 80.01 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422e2cc6-6142-40b9-83b6-d39f1dd51293")
+	)
+	(wire
+		(pts
 			(xy 345.44 109.22) (xy 347.98 109.22)
 		)
 		(stroke
@@ -3837,16 +3801,6 @@
 			(type default)
 		)
 		(uuid "456df381-0330-455c-9ef6-e651009f890c")
-	)
-	(wire
-		(pts
-			(xy 80.01 168.91) (xy 80.01 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "488b2545-d499-4947-b9f3-fcf17cc2bcb8")
 	)
 	(wire
 		(pts
@@ -3887,6 +3841,16 @@
 			(type default)
 		)
 		(uuid "4e312983-fa7d-425d-9d0b-cafaddf5a467")
+	)
+	(wire
+		(pts
+			(xy 80.01 168.91) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f01416c-f539-4924-bf35-55c643d38247")
 	)
 	(wire
 		(pts
@@ -3960,16 +3924,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 161.29) (xy 31.75 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6149861f-382a-41f9-bce9-91593fdb95b9")
-	)
-	(wire
-		(pts
 			(xy 360.68 114.3) (xy 360.68 116.84)
 		)
 		(stroke
@@ -4020,16 +3974,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 166.37) (xy 31.75 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c9356a0-3325-42a7-890a-3941cc61a255")
-	)
-	(wire
-		(pts
 			(xy 237.49 109.22) (xy 220.98 109.22)
 		)
 		(stroke
@@ -4060,7 +4004,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 158.75) (xy 31.75 161.29)
+			(xy 31.75 149.86) (xy 31.75 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4097,16 +4041,6 @@
 			(type default)
 		)
 		(uuid "738b1b8d-33b9-49a8-90a4-90ba05888e9f")
-	)
-	(wire
-		(pts
-			(xy 80.01 171.45) (xy 80.01 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77fe1517-260a-4dc0-a92e-c1f209ce5fa9")
 	)
 	(wire
 		(pts
@@ -4300,16 +4234,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 158.75) (xy 80.01 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e7e89f-006b-451a-8a91-1569cc566c52")
-	)
-	(wire
-		(pts
 			(xy 259.08 168.91) (xy 254 168.91)
 		)
 		(stroke
@@ -4477,16 +4401,6 @@
 			(type default)
 		)
 		(uuid "b9cbbc91-2555-4cd9-abb0-73e40f55c54f")
-	)
-	(wire
-		(pts
-			(xy 31.75 168.91) (xy 31.75 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb58cd26-3e48-493b-9bad-ab7dbe2bc0da")
 	)
 	(wire
 		(pts
@@ -4820,6 +4734,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 171.45) (xy 80.01 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5033876-065f-4e3a-b2a6-834d533f2a1e")
+	)
+	(wire
+		(pts
 			(xy 254 59.69) (xy 251.46 59.69)
 		)
 		(stroke
@@ -5129,88 +5053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "3x2 MOLEX:10845060")
-		(at 80.01 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "016f7939-9fd6-4e19-b647-9c2a73c0b8cc")
-		(property "Reference" "J10"
-			(at 71.12 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "10845060"
-			(at 71.12 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f534f01b-3d25-4804-9b79-95d112b7ac4a")
-		)
-		(pin "4"
-			(uuid "301a8a4f-a41c-4c8a-9d22-32c5edabe54c")
-		)
-		(pin "1"
-			(uuid "e9a8bcf2-754d-439e-990c-59a204f5e651")
-		)
-		(pin "2"
-			(uuid "7a495a05-471f-4db4-a820-3519ef807a2e")
-		)
-		(pin "5"
-			(uuid "f3e215aa-6cc6-4112-9493-56c64b15733b")
-		)
-		(pin "6"
-			(uuid "399b45e3-1557-4b68-b9e0-479ba95f5188")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 294.64 140.97 0)
 		(mirror y)
@@ -5347,33 +5189,33 @@
 		)
 	)
 	(symbol
-		(lib_id "3x2 MOLEX:10845060")
-		(at 31.75 171.45 180)
+		(lib_id "3X2MOLEX:430450612")
+		(at 80.01 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07a41dab-b436-4b75-9534-e52754febccd")
-		(property "Reference" "J7"
-			(at 22.86 151.13 0)
+		(uuid "0753946b-b835-4767-a38c-863eb42b69be")
+		(property "Reference" "J5"
+			(at 71.12 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "10845060"
-			(at 22.86 153.67 0)
+		(property "Value" "430450612"
+			(at 71.12 153.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
-			(at 31.75 171.45 0)
+		(property "Footprint" "footprints:CONN_SD-43045-005_06_MOL"
+			(at 80.01 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,8 +5224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
-			(at 31.75 171.45 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/430450612?display=pdf"
+			(at 80.01 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 171.45 0)
+			(at 80.01 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,28 +5243,28 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "6d886531-7253-42fe-b0f5-a40eb788b58a")
-		)
-		(pin "4"
-			(uuid "be9f7229-e318-498e-b281-a877a8481a8a")
-		)
 		(pin "1"
-			(uuid "90984f98-5395-4c4e-a7e0-ba0a42fb8e6f")
+			(uuid "a16713f8-b9a9-4019-bdb9-02f5176a3b29")
 		)
-		(pin "2"
-			(uuid "2a9ad932-77ff-49cd-b42f-aceb1d69dc8a")
-		)
-		(pin "5"
-			(uuid "74933b6f-b24f-4925-b42a-a00091dc3472")
+		(pin "3"
+			(uuid "2851aeac-0d4c-4281-9d03-41d83c47dec3")
 		)
 		(pin "6"
-			(uuid "e7badedd-fa7c-45fc-8c0c-cc5c1b1e42e1")
+			(uuid "0f00e2e6-0c27-4cf8-abf5-38b2eb26b6ed")
+		)
+		(pin "5"
+			(uuid "065e2303-ca0e-40eb-adbb-39af54c79119")
+		)
+		(pin "4"
+			(uuid "7f56be04-4bc6-47a6-8d85-c47e4b9bb039")
+		)
+		(pin "2"
+			(uuid "2ad19093-979b-4f8a-91f0-b96f531e0bc0")
 		)
 		(instances
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5784,6 +5626,170 @@
 		)
 	)
 	(symbol
+		(lib_id "3X2MOLEX:430450612")
+		(at 80.01 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1692327b-af05-4e97-9c4d-6f9c22a2120b")
+		(property "Reference" "J2"
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "430450612"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CONN_SD-43045-005_06_MOL"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/430450612?display=pdf"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21afd58c-4e08-4dd3-83dd-9cf25dc24dbb")
+		)
+		(pin "3"
+			(uuid "e63732ba-50e5-464b-8770-72a248b86070")
+		)
+		(pin "6"
+			(uuid "1dad9bf0-ccb9-4287-866b-313934115185")
+		)
+		(pin "5"
+			(uuid "5d788a68-b5eb-47b6-850e-2529acd3a011")
+		)
+		(pin "4"
+			(uuid "d24f8ade-cdd2-40b7-ac37-55f2cdf36e7c")
+		)
+		(pin "2"
+			(uuid "dc0d8485-cef2-4051-bedd-bff048b31858")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3X2MOLEX:430450612")
+		(at 80.01 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a9345fd-5780-4117-898e-58a9a8beac2f")
+		(property "Reference" "J4"
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "430450612"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CONN_SD-43045-005_06_MOL"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/430450612?display=pdf"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d8493a-c52d-4399-904f-e693eb17cd72")
+		)
+		(pin "3"
+			(uuid "ea815cc0-56f4-4f5a-8ee4-46633a474b7e")
+		)
+		(pin "6"
+			(uuid "04b6303c-566b-4d44-b0db-b9c933cee024")
+		)
+		(pin "5"
+			(uuid "1de6f1a7-e69e-4f7c-a5e9-e7a05e3ca5d1")
+		)
+		(pin "4"
+			(uuid "c6da2e2a-3859-4512-b8ad-0f5e3d06f41a")
+		)
+		(pin "2"
+			(uuid "4fbc5ced-add1-47d1-acf9-e650aeac41e0")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 222.25 0)
 		(unit 1)
@@ -6048,88 +6054,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "3x2 MOLEX:10845060")
-		(at 80.01 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35b08121-a25b-40a8-9a19-861413521b52")
-		(property "Reference" "J9"
-			(at 71.12 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "10845060"
-			(at 71.12 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "27665954-7301-4f08-8b0a-28dbb3d4be87")
-		)
-		(pin "4"
-			(uuid "17f2a920-b58e-462b-a892-a76a0d5b3785")
-		)
-		(pin "1"
-			(uuid "0b69030e-205d-4ca2-bb72-f7bd6a3df510")
-		)
-		(pin "2"
-			(uuid "f53d2f59-93f9-4737-99eb-e13c89ab1935")
-		)
-		(pin "5"
-			(uuid "5812e5fd-8d9c-4785-8f63-922ab86baa24")
-		)
-		(pin "6"
-			(uuid "f336cc64-ec8f-496e-b7d4-937fccc29d23")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7242,88 +7166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "3x2 MOLEX:10845060")
-		(at 80.01 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d2fe885-ce08-41ff-96f6-ead747525100")
-		(property "Reference" "J11"
-			(at 71.12 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "10845060"
-			(at 71.12 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "045c8c4f-dcbb-4a0c-ad23-29b17c0c1030")
-		)
-		(pin "4"
-			(uuid "401a27c3-39d0-4bed-94a4-10fb7fd252d7")
-		)
-		(pin "1"
-			(uuid "803118b9-7d36-4b08-94fe-22dbf1b3975c")
-		)
-		(pin "2"
-			(uuid "dfcb809a-7081-49be-b6b3-82310f355fc9")
-		)
-		(pin "5"
-			(uuid "0bb1f37e-2c12-4b77-83e5-d344212488a2")
-		)
-		(pin "6"
-			(uuid "d42ce982-e0a0-4d27-b856-4789aa8d6021")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 347.98 111.76 0)
 		(unit 1)
@@ -8085,88 +7927,6 @@
 		)
 	)
 	(symbol
-		(lib_id "3x2 MOLEX:10845060")
-		(at 31.75 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf346242-a502-4015-8e45-47f43dfa9906")
-		(property "Reference" "J8"
-			(at 22.86 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "10845060"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
-			(at 31.75 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
-			(at 31.75 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "73af82a5-359f-4570-b497-f7330efadb16")
-		)
-		(pin "4"
-			(uuid "f03d0860-2e4a-45a9-b185-2b6f382ec166")
-		)
-		(pin "1"
-			(uuid "f72b5ab8-b5f2-4b60-b265-fffbdc39e911")
-		)
-		(pin "2"
-			(uuid "dd801e12-8649-4f43-8b9d-cc14334ff246")
-		)
-		(pin "5"
-			(uuid "a15ffadb-24dd-4290-8033-19b7225a3f9a")
-		)
-		(pin "6"
-			(uuid "c3a0b5c1-14af-402b-93ef-d00e05e226e0")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 177.8 190.5 0)
 		(unit 1)
@@ -8671,88 +8431,6 @@
 			(project ""
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "XMER1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "3x2 MOLEX:10845060")
-		(at 31.75 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f69ac8e4-e0a5-45b2-95fb-5356ed1f75e4")
-		(property "Reference" "J6"
-			(at 22.86 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "10845060"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN_SDA_42002-xxxxx_06_MOL"
-			(at 31.75 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/10845060?display=pdf"
-			(at 31.75 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7540d4ae-ee68-4677-8a9c-df7e3b5898ee")
-		)
-		(pin "4"
-			(uuid "f1789c00-208e-4b57-a623-84275e7a8a6b")
-		)
-		(pin "1"
-			(uuid "166b7d1a-6c56-4f76-ad1f-519243a272e7")
-		)
-		(pin "2"
-			(uuid "5da5b5af-336d-4b02-ab7b-5e89bfd8326a")
-		)
-		(pin "5"
-			(uuid "c2532978-dcd1-40bf-acd4-e3c05851cdbd")
-		)
-		(pin "6"
-			(uuid "985e857b-80df-4040-9bb3-f7cff8d75c81")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "J6")
 					(unit 1)
 				)
 			)
