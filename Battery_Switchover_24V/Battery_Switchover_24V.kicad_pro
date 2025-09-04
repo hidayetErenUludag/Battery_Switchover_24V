@@ -658,6 +658,10 @@
     [
       "0650697f-8d34-4346-a93f-e65dd5d58ae8",
       "POWER"
+    ],
+    [
+      "93b4fe32-55c4-45c8-9b61-df73d630bf50",
+      "CHARGE CONTROL"
     ]
   ],
   "text_variables": {}
