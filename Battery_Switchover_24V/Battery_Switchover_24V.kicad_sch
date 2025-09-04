@@ -45,7 +45,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0650697f-8d34-4346-a93f-e65dd5d58ae8")
-		(property "Sheetname" "POWER"
+		(property "Sheetname" "Power"
 			(at 30.48 82.4734 0)
 			(effects
 				(font
@@ -213,7 +213,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "93b4fe32-55c4-45c8-9b61-df73d630bf50")
-		(property "Sheetname" "CHARGE CONTROL"
+		(property "Sheetname" "Charge Control"
 			(at 85.09 82.4734 0)
 			(effects
 				(font
