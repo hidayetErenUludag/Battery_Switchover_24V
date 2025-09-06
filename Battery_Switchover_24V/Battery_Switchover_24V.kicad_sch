@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "Change 24V cap sizes to bigger\n"
 		(exclude_from_sim no)
-		(at 201.676 103.124 0)
+		(at 264.922 53.086 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -19,7 +19,7 @@
 	)
 	(text "Bigger LED ?"
 		(exclude_from_sim no)
-		(at 191.516 106.172 0)
+		(at 254.762 56.134 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -28,6 +28,26 @@
 			)
 		)
 		(uuid "d54a8ad8-6a01-4811-9391-7a490fe7540c")
+	)
+	(text_box "Charge circuit buck converter\ncharge enable condition\nADC inputs with scalers"
+		(exclude_from_sim no)
+		(at 140.97 83.185 0)
+		(size 100.965 76.835)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "013bfe67-b2e8-46e5-832a-e77d5544d247")
 	)
 	(sheet
 		(at 30.48 83.82)

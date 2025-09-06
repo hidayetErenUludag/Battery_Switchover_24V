@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "BQ25756RRVR")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ25756RRVR.kicad_sym")(options "")(descr ""))
+  (lib (name "LM74610QDGKRQ1")(type "KiCad")(uri "${KIPRJMOD}/lib/LM74610QDGKRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "ACS37002")(type "KiCad")(uri "${KIPRJMOD}/lib/ACS37002.kicad_sym")(options "")(descr ""))
 )
