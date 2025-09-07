@@ -1009,7 +1009,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -1031,7 +1031,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)

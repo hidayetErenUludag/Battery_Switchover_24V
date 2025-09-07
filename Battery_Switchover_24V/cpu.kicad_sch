@@ -6257,19 +6257,19 @@
 		)
 		(uuid "fdd5a201-0ae1-45b2-ab85-310bc53c1eec")
 	)
-	(global_label "Fan_Status"
+	(global_label "Fan_Status_LED"
 		(shape input)
 		(at 156.21 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
 		(uuid "038ea099-107d-49fb-ac53-ffa7e9030615")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.8816 64.77 0)
+			(at 138.4689 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +6285,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6301,19 +6301,19 @@
 			)
 		)
 	)
-	(global_label "Main_Voltage"
+	(global_label "Main_Voltage_LED"
 		(shape input)
 		(at 156.21 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
 		(uuid "09768f92-53c7-455c-a779-0622336ebb2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.4847 59.69 0)
+			(at 136.4732 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6351,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6367,19 +6367,19 @@
 			)
 		)
 	)
-	(global_label "Battery_Status"
+	(global_label "Battery_Status_LED"
 		(shape input)
 		(at 156.21 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
 		(uuid "192247f2-f5dc-429f-98f8-b17cd439948b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.5533 62.23 0)
+			(at 135.1427 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,13 +6395,13 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "214a914c-e126-40be-b8d2-e06fe0305708")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.8811 49.53 0)
+			(at 200.5003 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,13 +6417,13 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "2641dd3b-8f6b-4beb-ab2f-6654e77eedaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2972 62.23 0)
+			(at 226.2633 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6439,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6461,13 +6461,13 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "4af3749e-0596-42c3-b2ed-be55d92f93b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2549 59.69 0)
+			(at 226.2028 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6483,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6505,7 +6505,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6527,7 +6527,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6549,7 +6549,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6571,7 +6571,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6593,13 +6593,13 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "8bac0719-9c2f-4185-b6fa-e15961c61084")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7119 57.15 0)
+			(at 200.2585 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,13 +6615,13 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
 		(uuid "9095f228-dfca-4301-b165-19e3b7fd5075")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.0934 69.85 0)
+			(at 143.186 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6637,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6653,19 +6653,19 @@
 			)
 		)
 	)
-	(global_label "Main_Voltage"
+	(global_label "Main_Voltage_LED"
 		(shape input)
 		(at 241.3 68.58 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
 		(uuid "9e8ea630-edf2-4fe6-8c30-072e00deee6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 79.3053 90)
+			(at 241.3 82.3956 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6675,19 +6675,19 @@
 			)
 		)
 	)
-	(global_label "Battery_Status"
+	(global_label "Battery_Status_LED"
 		(shape input)
 		(at 248.92 68.58 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
 		(uuid "a751cf46-e2b8-4626-a6a2-90cb3de6f5c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 80.2367 90)
+			(at 248.92 83.327 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6703,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6719,19 +6719,19 @@
 			)
 		)
 	)
-	(global_label "Fan_Status"
+	(global_label "Fan_Status_LED"
 		(shape input)
 		(at 256.54 68.58 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
 		(uuid "ad87b972-bff2-4d2a-8e12-f14769c8e340")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 77.9084 90)
+			(at 256.54 80.9987 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +6747,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
@@ -6813,7 +6813,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6835,7 +6835,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -6857,7 +6857,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -7999,10 +7999,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c99e66b-b3f8-45d1-bda4-9dc4f73f9a4b")
 		(property "Reference" "D3"
-			(at 251.46 119.3799 90)
+			(at 246.126 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,8 +8009,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
-			(at 251.46 121.9199 90)
+		(property "Value" "1N4148"
+			(at 247.65 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
