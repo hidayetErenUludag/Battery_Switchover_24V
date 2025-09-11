@@ -1608,6 +1608,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "V outputtan alınmalı, \nExt power veya batt power herhangi biri var ise\nçalışır halde olmalı"
+		(exclude_from_sim no)
+		(at 66.294 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb48e53b-8cf2-4619-9b47-442ff41fe5b2")
+	)
 	(junction
 		(at 100.33 102.87)
 		(diameter 0)
