@@ -4594,7 +4594,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 189.23 39.37 270)
+		(at 175.26 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4602,7 +4602,7 @@
 		(dnp no)
 		(uuid "5e4fd494-adbd-4f89-b455-fed667d114d2")
 		(property "Reference" "RN2"
-			(at 181.356 44.196 90)
+			(at 167.386 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4610,7 @@
 			)
 		)
 		(property "Value" "R_Pack04"
-			(at 189.992 44.196 90)
+			(at 176.022 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 46.355 90)
+			(at 175.26 50.165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 39.37 0)
+			(at 175.26 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4636,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 189.23 39.37 0)
+			(at 175.26 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4748,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 173.99 39.37 270)
+		(at 158.75 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4756,7 +4756,7 @@
 		(dnp no)
 		(uuid "685fa9da-5e68-4f6c-8696-57bbc50c5cc7")
 		(property "Reference" "RN1"
-			(at 166.116 30.48 90)
+			(at 150.876 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4764,7 @@
 			)
 		)
 		(property "Value" "R_Pack04"
-			(at 173.99 30.48 90)
+			(at 158.75 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 46.355 90)
+			(at 158.75 69.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +4781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 39.37 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4790,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 173.99 39.37 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
