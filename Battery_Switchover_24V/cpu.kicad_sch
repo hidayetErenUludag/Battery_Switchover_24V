@@ -5569,6 +5569,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 109.22) (xy 256.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3ba6f8-2bd2-45dd-9c00-efd2c674f5e5")
+	)
+	(wire
+		(pts
 			(xy 22.86 101.6) (xy 22.86 110.49)
 		)
 		(stroke
@@ -6039,16 +6049,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 111.76) (xy 256.54 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de3e4e0f-a809-40bb-a10e-aca856e6d58b")
-	)
-	(wire
-		(pts
 			(xy 39.37 154.94) (xy 41.91 154.94)
 		)
 		(stroke
@@ -6345,9 +6345,9 @@
 			)
 		)
 	)
-	(global_label "VREF3"
+	(global_label "VOUT"
 		(shape input)
-		(at 191.77 87.63 0)
+		(at 256.54 109.22 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6355,9 +6355,9 @@
 			)
 			(justify left)
 		)
-		(uuid "10a05553-abc5-4e04-a48c-93f646b1e284")
+		(uuid "100a6424-ef76-458d-bf9f-0fa658324a75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9235 87.63 0)
+			(at 256.54 101.5176 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,9 +6499,9 @@
 			)
 		)
 	)
-	(global_label "VREF3"
+	(global_label "BATT_CURRENT"
 		(shape input)
-		(at 191.77 82.55 0)
+		(at 124.46 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6509,9 +6509,9 @@
 			)
 			(justify left)
 		)
-		(uuid "76b9b3a0-3863-4d9d-82f1-6ba81652ba05")
+		(uuid "507df4f6-0c1b-4df2-bf9d-3a636c2b5fd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9235 82.55 0)
+			(at 141.2942 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,28 +6627,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VREF3"
-		(shape input)
-		(at 191.77 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92e48e91-5c7e-47d8-ab37-9cb54c350f73")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9235 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6785,28 +6763,6 @@
 			)
 		)
 	)
-	(global_label "Vsupply"
-		(shape input)
-		(at 256.54 111.76 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf1992a1-6724-4c86-a71d-068faef8e5b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 101.5783 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Fan_Control"
 		(shape input)
 		(at 191.77 107.95 0)
@@ -6886,7 +6842,7 @@
 			(at 214.63 53.594 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -6956,7 +6912,7 @@
 			(at 132.08 160.0199 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -6965,7 +6921,7 @@
 			(at 132.08 162.5599 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -7627,7 +7583,7 @@
 			(at 210.82 53.594 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -8177,7 +8133,7 @@
 			(at 240.792 136.398 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -8885,7 +8841,7 @@
 			(at 69.85 165.0999 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -8894,7 +8850,7 @@
 			(at 69.85 167.6399 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -9108,7 +9064,7 @@
 			(at 104.14 25.654 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
