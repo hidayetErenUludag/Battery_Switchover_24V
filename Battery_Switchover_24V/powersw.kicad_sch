@@ -2429,6 +2429,12 @@
 		(uuid "51022f53-40e8-40ab-b07d-a082dd164fd8")
 	)
 	(junction
+		(at 200.66 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54ade1f4-e2dd-4d0d-bb2a-e184e60aa0c1")
+	)
+	(junction
 		(at 389.89 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2481,6 +2487,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67a7fbd3-f2ef-42f7-ae7a-5185c083751d")
+	)
+	(junction
+		(at 179.07 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67b41d64-880f-4c72-a13f-b0bf0238743a")
 	)
 	(junction
 		(at 389.89 39.37)
@@ -2555,12 +2567,6 @@
 		(uuid "8ac55693-270f-4248-b223-1961527c3aee")
 	)
 	(junction
-		(at 187.96 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8aecb813-b1d8-4106-8be2-5c151efd0fe5")
-	)
-	(junction
 		(at 152.4 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2583,12 +2589,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "948d40dd-3a85-4e98-81ed-2e51f7114198")
-	)
-	(junction
-		(at 200.66 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "951523fd-e395-4d6c-93a8-9af6e247cc03")
 	)
 	(junction
 		(at 370.84 71.12)
@@ -2645,12 +2645,6 @@
 		(uuid "bbeafc28-45d9-46c2-a9bb-5e9a023e901b")
 	)
 	(junction
-		(at 182.88 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc27a3ff-148c-4797-a479-6fa4c52ef8e8")
-	)
-	(junction
 		(at 389.89 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2667,6 +2661,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc3df159-5ef2-4b03-967f-6f652b687e6d")
+	)
+	(junction
+		(at 187.96 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d868f534-d65b-4951-a3f3-c0b031ad4ddc")
 	)
 	(junction
 		(at 304.8 165.1)
@@ -2746,7 +2746,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 83.82) (xy 196.85 97.79)
+			(xy 196.85 74.93) (xy 196.85 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2973,16 +2973,6 @@
 			(type default)
 		)
 		(uuid "1e0d231e-6d55-4c63-a4bc-c27eeb6154bc")
-	)
-	(wire
-		(pts
-			(xy 200.66 125.73) (xy 200.66 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e836518-ab3f-4ac1-92b5-95bae332b316")
 	)
 	(wire
 		(pts
@@ -3226,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 196.85 83.82)
+			(xy 187.96 74.93) (xy 196.85 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 182.88 82.55)
+			(xy 179.07 67.31) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 76.2) (xy 200.66 90.17)
+			(xy 200.66 67.31) (xy 200.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3383,6 +3373,16 @@
 			(type default)
 		)
 		(uuid "4a79b3c1-308a-468d-bd95-89f793800b53")
+	)
+	(wire
+		(pts
+			(xy 179.07 67.31) (xy 182.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c73b224-9bf1-4837-9c02-9418cad33fa2")
 	)
 	(wire
 		(pts
@@ -3606,16 +3606,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 82.55) (xy 182.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "631d1596-d47b-4986-afa2-ca80e857a12f")
-	)
-	(wire
-		(pts
 			(xy 294.64 137.16) (xy 299.72 137.16)
 		)
 		(stroke
@@ -3726,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 218.44 137.16)
+			(xy 218.44 82.55) (xy 218.44 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3916,7 +3906,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 76.2) (xy 193.04 76.2)
+			(xy 200.66 67.31) (xy 193.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4016,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 90.17) (xy 200.66 90.17)
+			(xy 193.04 82.55) (xy 200.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4203,6 +4193,16 @@
 			(type default)
 		)
 		(uuid "b22138b9-bf0a-4dbb-8a2b-7237b71569a2")
+	)
+	(wire
+		(pts
+			(xy 200.66 82.55) (xy 200.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29a15aa-a6ce-470c-ac67-17022c7d58cc")
 	)
 	(wire
 		(pts
@@ -4496,6 +4496,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 82.55) (xy 182.88 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d4a111-546d-465c-9f71-cc068d39379a")
+	)
+	(wire
+		(pts
 			(xy 389.89 36.83) (xy 389.89 39.37)
 		)
 		(stroke
@@ -4566,7 +4576,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 90.17) (xy 218.44 90.17)
+			(xy 200.66 82.55) (xy 218.44 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4606,7 +4616,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 113.03) (xy 187.96 97.79)
+			(xy 187.96 92.71) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4696,13 +4706,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 182.88 82.55)
+			(xy 106.68 82.55) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef345809-753a-45b1-9658-6d15b7796692")
+	)
+	(wire
+		(pts
+			(xy 187.96 90.17) (xy 187.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0244349-ce00-459e-948d-dc37d5f43771")
 	)
 	(wire
 		(pts
@@ -4756,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 97.79) (xy 187.96 97.79)
+			(xy 196.85 92.71) (xy 187.96 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5352,7 +5372,7 @@
 		(dnp no)
 		(uuid "1cae4ee0-8546-42d7-9d8c-b96cd80bad02")
 		(property "Reference" "Q7"
-			(at 137.16 173.99 90)
+			(at 131.826 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5380,7 @@
 			)
 		)
 		(property "Value" "FDBL86066-F085"
-			(at 137.16 176.53 90)
+			(at 134.366 176.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5570,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
-		(at 187.96 78.74 270)
+		(at 187.96 69.85 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5559,7 +5579,7 @@
 		(dnp no)
 		(uuid "331199fb-b806-4371-b10e-dfbd23f846b6")
 		(property "Reference" "Q4"
-			(at 187.96 69.85 90)
+			(at 182.88 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5587,7 @@
 			)
 		)
 		(property "Value" "FDBL86066-F085"
-			(at 187.96 72.39 90)
+			(at 187.96 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5595,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 190.5 73.66 0)
+			(at 190.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 78.74 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5613,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 187.96 78.74 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,7 +6856,7 @@
 		(dnp no)
 		(uuid "cd5f1c3c-a248-4fa0-a3e5-2423ff6698d0")
 		(property "Reference" "Q6"
-			(at 137.16 156.21 90)
+			(at 131.826 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +6864,7 @@
 			)
 		)
 		(property "Value" "FDBL86066-F085"
-			(at 137.16 158.75 90)
+			(at 134.874 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7624,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
-		(at 187.96 92.71 270)
+		(at 187.96 85.09 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7613,16 +7633,15 @@
 		(dnp no)
 		(uuid "f012c52a-5f3c-4646-8ff8-a1d9bcd6d592")
 		(property "Reference" "Q5"
-			(at 187.96 83.82 90)
+			(at 182.626 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "FDBL86066-F085"
-			(at 187.96 86.36 90)
+			(at 187.96 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7630,7 +7649,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 190.5 87.63 0)
+			(at 190.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 92.71 0)
+			(at 187.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7667,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 187.96 92.71 0)
+			(at 187.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
