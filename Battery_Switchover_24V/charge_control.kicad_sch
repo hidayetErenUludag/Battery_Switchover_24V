@@ -4276,7 +4276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 201.93 140.97 0)
 			(effects
 				(font
@@ -5265,7 +5265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-6767"
 			(at 157.48 80.01 0)
 			(effects
 				(font
@@ -6976,7 +6976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 166.37 87.63 0)
 			(effects
 				(font

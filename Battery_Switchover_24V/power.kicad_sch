@@ -3156,7 +3156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 243.84 120.65 0)
 			(effects
 				(font
@@ -4461,7 +4461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 181.61 125.73 0)
 			(effects
 				(font
@@ -4599,7 +4599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 78.994 97.536 0)
 			(effects
 				(font

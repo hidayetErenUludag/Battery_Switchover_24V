@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "M8_Screw_Terminal")(type "KiCad")(uri "${KIPRJMOD}/lib/M8_Screw_Terminal.pretty")(options "")(descr ""))
+)

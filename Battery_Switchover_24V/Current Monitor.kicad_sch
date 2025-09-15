@@ -2408,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 158.75) (xy 92.71 158.75)
+			(xy 77.47 158.75) (xy 90.17 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2688,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 102.87) (xy 101.6 102.87)
+			(xy 96.52 102.87) (xy 101.6 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2728,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 97.79 50.8)
+			(xy 92.71 50.8) (xy 97.79 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 102.87) (xy 93.98 102.87)
+			(xy 77.47 102.87) (xy 91.44 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3128,7 +3128,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 50.8) (xy 90.17 50.8)
+			(xy 77.47 50.8) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3988,7 +3988,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 158.75) (xy 100.33 158.75)
+			(xy 95.25 158.75) (xy 100.33 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal"
 			(at 133.35 124.46 0)
 			(effects
 				(font
@@ -5207,7 +5207,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 92.71 50.8 90)
+		(at 90.17 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5215,7 +5215,7 @@
 		(dnp no)
 		(uuid "44a850db-13ce-489c-b394-767011d25b11")
 		(property "Reference" "R44"
-			(at 97.028 52.578 90)
+			(at 96.266 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5224,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 90.678 51.816 90)
+			(at 88.138 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.71 50.8 0)
+			(at 90.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 50.8 0)
+			(at 90.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5251,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 92.71 50.8 0)
+			(at 90.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +5407,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 96.52 102.87 90)
+		(at 93.98 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5415,7 +5415,7 @@
 		(dnp no)
 		(uuid "4a308e0c-b9f2-42b2-bd1d-78b574cf0091")
 		(property "Reference" "R45"
-			(at 100.838 104.648 90)
+			(at 99.822 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5424,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 94.488 103.886 90)
+			(at 91.948 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5433,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.52 102.87 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 102.87 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5451,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 96.52 102.87 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6401,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 93.98 40.132 0)
+			(at 87.376 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,7 +8766,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 95.25 158.75 90)
+		(at 92.71 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8774,7 +8774,7 @@
 		(dnp no)
 		(uuid "c9fa5695-9dfa-4603-9c27-bfaa8f698534")
 		(property "Reference" "R46"
-			(at 99.568 160.528 90)
+			(at 98.552 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,7 +8783,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 93.218 159.766 90)
+			(at 90.678 159.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8792,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 95.25 158.75 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 158.75 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +8810,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 95.25 158.75 0)
+			(at 92.71 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
