@@ -1,4 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "M8_Screw_Terminal")(type "KiCad")(uri "${KIPRJMOD}/lib/M8_Screw_Terminal.pretty")(options "")(descr ""))
+  (lib (name "CMX1616Z_Choke")(type "KiCad")(uri "${KIPRJMOD}/lib/CMX1616Z_Choke")(options "")(descr ""))
+  (lib (name "LCD_OLED_I2C")(type "KiCad")(uri "${KIPRJMOD}/lib/LCD_OLED_I2C")(options "")(descr ""))
+  (lib (name "USB_C_Vertical")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_C_Vertical")(options "")(descr ""))
 )

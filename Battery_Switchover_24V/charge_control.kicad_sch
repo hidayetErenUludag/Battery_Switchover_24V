@@ -2443,16 +2443,6 @@
 		)
 		(uuid "b4012ba8-2fcd-4ca5-a300-5e85a193290c")
 	)
-	(text "Not Connected\n"
-		(exclude_from_sim no)
-		(at 252.222 103.886 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e3dec752-a892-4e73-86a3-75598e6b48d5")
-	)
 	(junction
 		(at 191.77 95.25)
 		(diameter 0)
