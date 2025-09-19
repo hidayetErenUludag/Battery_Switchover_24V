@@ -4,4 +4,5 @@
   (lib (name "CMX1616Z_Choke")(type "KiCad")(uri "${KIPRJMOD}/lib/CMX1616Z_Choke")(options "")(descr ""))
   (lib (name "LCD_OLED_I2C")(type "KiCad")(uri "${KIPRJMOD}/lib/LCD_OLED_I2C")(options "")(descr ""))
   (lib (name "USB_C_Vertical")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_C_Vertical")(options "")(descr ""))
+  (lib (name "SOT95P251X112-3N")(type "KiCad")(uri "${KIPRJMOD}/lib/SOT95P251X112-3N.pretty")(options "")(descr ""))
 )

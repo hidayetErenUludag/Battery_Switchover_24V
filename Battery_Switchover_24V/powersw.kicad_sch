@@ -5877,6 +5877,28 @@
 			)
 		)
 	)
+	(global_label "LOAD1_EN"
+		(shape input)
+		(at 288.29 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69c9e481-6a35-42b9-a2ff-217e9176c69e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.931 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VOUT"
 		(shape input)
 		(at 264.16 127 90)
@@ -5936,6 +5958,50 @@
 		(uuid "9289e937-f63c-446d-b847-c991ae5c54fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 400.05 150.3052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOAD2_EN"
+		(shape input)
+		(at 320.04 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98bd8933-d6f1-4ddd-9e3c-d02a88f31963")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.681 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOAD3_EN"
+		(shape input)
+		(at 318.77 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d826d116-51c4-4782-bc12-8d70bcb10c5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.411 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6127,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
 			(at 269.24 151.13 0)
 			(effects
 				(font
@@ -6130,7 +6196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
 			(at 268.224 158.496 0)
 			(effects
 				(font
@@ -7304,7 +7370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
 			(at 299.72 151.13 0)
 			(effects
 				(font
@@ -8283,7 +8349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D10.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
 			(at 279.4 151.13 0)
 			(effects
 				(font

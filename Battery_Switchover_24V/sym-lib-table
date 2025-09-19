@@ -6,4 +6,5 @@
   (lib (name "ACS71240LLCBTR-010B3")(type "KiCad")(uri "${KIPRJMOD}/lib/ACS71240LLCBTR-010B3.kicad_sym")(options "")(descr ""))
   (lib (name "LM25117PSQE_NOPB")(type "KiCad")(uri "${KIPRJMOD}/lib/LM25117PSQE_NOPB.kicad_sym")(options "")(descr ""))
   (lib (name "OLED_128X64_1.3_I2C")(type "KiCad")(uri "${KIPRJMOD}/lib/OLED_128X64_1.3_I2C.kicad_sym")(options "")(descr ""))
+  (lib (name "LM60CIM3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/lib/LM60CIM3_NOPB.kicad_sym")(options "")(descr ""))
 )

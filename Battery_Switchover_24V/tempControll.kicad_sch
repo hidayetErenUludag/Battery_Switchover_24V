@@ -733,45 +733,46 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LM60:LM60CIM3"
+		(symbol "LM60CIM3_NOPB:LM60CIM3_NOPB"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 27.94 10.16 0)
+				(at -4.8076 6.1812 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "LM60CIM3"
-				(at 27.94 7.62 0)
+			(property "Value" "LM60CIM3_NOPB"
+				(at -4.547 -15.4699 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MF03A"
+			(property "Footprint" "LM60CIM3_NOPB:SOT95P251X112-3N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/lm60"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -785,131 +786,198 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "LM60CIM3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MF03A MF03A-M MF03A-L"
+			(property "Description_1" "±2°C analog output temperature sensor with 6.25mV /°C gain and TO-92 option"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "LM60CIM3_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
+			(property "PACKAGE" "SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LM60CIM3/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-23-3 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_FARNELL" "9779698"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM60CIM3/NOPB/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LM60CIM3/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER" "NationalSemiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_NEWARK" "92F317"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LM60CIM3/NOPB/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LM60CIM3_NOPB_0_0"
+				(rectangle
+					(start -12.7 -12.7)
+					(end 12.7 5.08)
 					(stroke
-						(width 0.127)
+						(width 0.4064)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 48.26 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 -7.62) (xy 48.26 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 7.62)
+				(pin power_in line
+					(at -17.78 0 0)
+					(length 5.08)
 					(name "+VS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 55.88 0 180)
-					(length 7.62)
+					(at -17.78 -7.62 0)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 55.88 -2.54 180)
-					(length 7.62)
+					(at 17.78 0 180)
+					(length 5.08)
 					(name "VO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1637,13 +1705,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 41.91) (xy 166.37 41.91)
+			(xy 105.41 46.99) (xy 107.95 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "244a5626-b010-40b1-838c-9af5eab33986")
+		(uuid "21ec54f2-67b3-4de6-bab7-9b5fd1324b50")
 	)
 	(wire
 		(pts
@@ -1657,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 49.53) (xy 105.41 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0d4098-addf-45af-aeba-4dc4a70185b3")
+	)
+	(wire
+		(pts
 			(xy 219.71 93.98) (xy 224.79 93.98)
 		)
 		(stroke
@@ -1667,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 39.37) (xy 100.33 39.37)
+			(xy 95.25 39.37) (xy 107.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1704,16 +1782,6 @@
 			(type default)
 		)
 		(uuid "3cce69e1-a00b-4ac0-9b1c-2897cedc51fa")
-	)
-	(wire
-		(pts
-			(xy 156.21 39.37) (xy 161.29 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50bba584-7d4a-443c-82fb-9fad4663dfc0")
 	)
 	(wire
 		(pts
@@ -1887,6 +1955,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 39.37) (xy 149.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10a1384-7118-47af-8e8e-a0f8bee89683")
+	)
+	(wire
+		(pts
 			(xy 95.25 31.75) (xy 95.25 39.37)
 		)
 		(stroke
@@ -1924,16 +2002,6 @@
 			(type default)
 		)
 		(uuid "f6c8c45d-3f71-4960-9e66-1d6d5c7860c6")
-	)
-	(wire
-		(pts
-			(xy 161.29 39.37) (xy 161.29 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7f0e244-cab4-4f67-9ef9-506834ed3aab")
 	)
 	(global_label "FAN_CONTROL"
 		(shape input)
@@ -2003,7 +2071,7 @@
 	)
 	(global_label "BOARD_TEMPERATURE"
 		(shape input)
-		(at 166.37 41.91 0)
+		(at 149.86 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2013,7 +2081,7 @@
 		)
 		(uuid "a7ee6ce0-c9d8-454f-8a1d-aa33ae46b71e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.6146 41.91 0)
+			(at 173.1046 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,79 +2550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LM60:LM60CIM3")
-		(at 100.33 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3875ee71-79c2-476e-8549-6d9b021c2e3f")
-		(property "Reference" "U11"
-			(at 128.27 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM60CIM3"
-			(at 128.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MF03A"
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lm60"
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0a62271f-fae8-4496-a98a-6c062d769355")
-		)
-		(pin "3"
-			(uuid "bacabf4f-98fa-4fce-90b8-76460b575383")
-		)
-		(pin "1"
-			(uuid "04cb5d36-fbb4-4add-93a9-68baa8d1f92e")
-		)
-		(instances
-			(project ""
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 128.27 77.47 0)
 		(unit 1)
@@ -2781,7 +2776,7 @@
 		(dnp no)
 		(uuid "49800fd3-5ba6-4f0c-83c4-e03d715c4801")
 		(property "Reference" "C31"
-			(at 95.25 43.18 0)
+			(at 94.234 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2785,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 95.25 47.244 0)
+			(at 94.234 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,6 +2830,208 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM60CIM3_NOPB:LM60CIM3_NOPB")
+		(at 125.73 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552fc5c5-c819-4ca3-9aeb-99628f4e9ef2")
+		(property "Reference" "U18"
+			(at 125.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM60CIM3_NOPB"
+			(at 125.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P251X112-3N:SOT95P251X112-3N"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "±2°C analog output temperature sensor with 6.25mV /°C gain and TO-92 option"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SOT-23-5"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM60CIM3/NOPB"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-3 Texas Instruments"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "9779698"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM60CIM3/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM60CIM3/NOPB"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "NationalSemiconductor"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "92F317"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM60CIM3/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25d7860e-ae57-4b6d-9ae8-a644cefdad1f")
+		)
+		(pin "1"
+			(uuid "4569c8b3-1b21-4b76-bb9b-e83f0ca29555")
+		)
+		(pin "3"
+			(uuid "63444002-7260-4447-b085-9d48978fa734")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -2981,7 +3178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 57.15 0)
+		(at 105.41 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2990,7 +3187,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ddfa7e9-2622-403f-8c0d-88bf0f8ff6e4")
 		(property "Reference" "#PWR059"
-			(at 161.29 63.5 0)
+			(at 105.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 62.23 0)
+			(at 105.41 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 57.15 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 57.15 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 57.15 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
