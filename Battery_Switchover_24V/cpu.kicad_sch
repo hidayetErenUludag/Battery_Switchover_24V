@@ -4704,12 +4704,6 @@
 		(uuid "66780c44-a5c2-4cd7-a982-151ea1e5a4f0")
 	)
 	(junction
-		(at 166.37 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6def423b-0f96-4714-9ea0-624336afbbf4")
-	)
-	(junction
 		(at 80.01 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6485,16 +6479,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 148.59) (xy 172.72 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd6b0e7d-02d4-4658-90b0-fe2d95df0aba")
-	)
-	(wire
-		(pts
 			(xy 262.89 46.99) (xy 262.89 48.26)
 		)
 		(stroke
@@ -6655,16 +6639,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 148.59) (xy 172.72 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1c2871-8fd5-4bd0-8380-b4d83057e39d")
-	)
-	(wire
-		(pts
 			(xy 186.69 22.86) (xy 194.31 22.86)
 		)
 		(stroke
@@ -6822,16 +6796,6 @@
 			(type default)
 		)
 		(uuid "fd7d77c4-9950-4438-95c0-3176e8b1f406")
-	)
-	(wire
-		(pts
-			(xy 172.72 158.75) (xy 172.72 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd5a201-0ae1-45b2-ab85-310bc53c1eec")
 	)
 	(global_label "Fan_Status_LED"
 		(shape input)
@@ -9264,7 +9228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCD_OLED_I2C:LCD_OLED_128X64_1.3_I2C"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 49.53 30.48 0)
 			(effects
 				(font
@@ -10096,7 +10060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -10565,73 +10529,6 @@
 			(project ""
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 163.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73cfc797-1089-4dea-b674-7498295dbf6a")
-		(property "Reference" "#PWR078"
-			(at 172.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0c60c26-350c-4758-b97e-871425ea6548")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -11242,7 +11139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
 			(at 259.08 151.13 0)
 			(effects
 				(font
@@ -11818,75 +11715,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 172.72 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a37f5eaa-0c4c-4e62-8216-af8415370b7f")
-		(property "Reference" "C45"
-			(at 171.704 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 171.958 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 172.72 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d01852e-9af9-4ce5-8c6f-b52ca70db692")
-		)
-		(pin "1"
-			(uuid "c5458873-ab11-4ed6-a21d-93b12844dba3")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/d26b3177-020f-497d-af2c-3252dd8d2c28"
-					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -12849,7 +12677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "USB_C_Vertical:GCT_USB4145-03-0170-C_REVA2"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 30.48 76.2 0)
 			(effects
 				(font
@@ -13328,7 +13156,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
 			(at 208.28 151.13 0)
 			(effects
 				(font
