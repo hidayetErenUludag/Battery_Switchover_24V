@@ -1740,235 +1740,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_FET:IRS21867S"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 13.335 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRS21867S"
-				(at 1.27 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/irs21867spbf.pdf?fileId=5546d462533600a4015356770e8327eb"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High and Low Side Driver, 600V, 4.0/4.0A, SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Gate Driver"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRS21867S_0_1"
-				(rectangle
-					(start -5.08 -10.16)
-					(end 5.08 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "IRS21867S_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "HIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "LIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 2.54)
-					(name "VB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "HO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name "LO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LM74610QDGKRQ1:LM74610QDGKRQ1"
 			(pin_names
 				(offset 1.016)
@@ -2774,6 +2545,16 @@
 			)
 		)
 		(uuid "b9411056-9cf0-4986-a2ca-ece232ed6b13")
+	)
+	(text "IRS20752"
+		(exclude_from_sim no)
+		(at 305.816 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2202c5a-9f0e-462c-a479-4738e6298627")
 	)
 	(junction
 		(at 328.93 199.39)
@@ -4933,6 +4714,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 52.07) (xy 311.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2e38e2-820a-4cd5-b7c1-a62ba29f7e39")
+	)
+	(wire
+		(pts
 			(xy 353.06 53.34) (xy 353.06 50.8)
 		)
 		(stroke
@@ -5210,6 +5001,16 @@
 			(type default)
 		)
 		(uuid "e7419bd6-c423-4097-a056-f1394cfc0690")
+	)
+	(wire
+		(pts
+			(xy 311.15 52.07) (xy 311.15 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8177f20-7553-49aa-8cf9-fc7384296656")
 	)
 	(wire
 		(pts
@@ -5909,95 +5710,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_FET:IRS21867S")
-		(at 288.29 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19a917ea-9533-4547-a3f1-ef1060af7c96")
-		(property "Reference" "U3"
-			(at 290.4333 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRS21867S"
-			(at 290.4333 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 288.29 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irs21867spbf.pdf?fileId=5546d462533600a4015356770e8327eb"
-			(at 288.29 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High and Low Side Driver, 600V, 4.0/4.0A, SOIC-8"
-			(at 288.29 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "194f080e-7199-409b-94fc-f66f8327b72b")
-		)
-		(pin "6"
-			(uuid "b15e5c31-837d-4f41-be01-07668da1b6e9")
-		)
-		(pin "5"
-			(uuid "c6462615-5ac3-4851-9f66-46e4ed3c1298")
-		)
-		(pin "8"
-			(uuid "cff8ee04-129d-403b-bf45-661a149907e8")
-		)
-		(pin "1"
-			(uuid "d3e23e0c-0108-49e9-abe2-109ea5d1572c")
-		)
-		(pin "4"
-			(uuid "673d09e7-abb1-4dcf-a2d7-5662665b3e4c")
-		)
-		(pin "7"
-			(uuid "28153e97-e689-46be-aa96-702d1c2ea5ba")
-		)
-		(pin "2"
-			(uuid "01803994-006f-488f-a2ed-14bceaa27708")
-		)
-		(instances
-			(project ""
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6780,95 +6492,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_FET:IRS21867S")
-		(at 288.29 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49a606e8-05bf-40ef-ae91-4772078d9fc6")
-		(property "Reference" "U15"
-			(at 290.4333 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRS21867S"
-			(at 290.4333 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 288.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irs21867spbf.pdf?fileId=5546d462533600a4015356770e8327eb"
-			(at 288.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High and Low Side Driver, 600V, 4.0/4.0A, SOIC-8"
-			(at 288.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9587d230-47e8-4c9c-ba7c-7e9555185b89")
-		)
-		(pin "6"
-			(uuid "857ca672-b8cc-46ba-ac98-92e1a987b9dc")
-		)
-		(pin "5"
-			(uuid "744fdca2-4ab9-44db-a8e3-d4002676497d")
-		)
-		(pin "8"
-			(uuid "c9b05d09-63c6-433e-9f88-d1f55ab396d8")
-		)
-		(pin "1"
-			(uuid "369d530c-1917-434c-8c29-384c8bc4b548")
-		)
-		(pin "4"
-			(uuid "4d8bdeb9-d0bb-40e2-a822-1a9982720222")
-		)
-		(pin "7"
-			(uuid "8324e2b5-a2c5-4a76-8a79-4fdcf4a0c52b")
-		)
-		(pin "2"
-			(uuid "4b67782b-a16b-4584-b29f-511609fbdeb9")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -9164,95 +8787,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_FET:IRS21867S")
-		(at 289.56 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc31d7e2-911e-41af-bef0-a0024b0bc4ea")
-		(property "Reference" "U17"
-			(at 291.7033 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRS21867S"
-			(at 291.7033 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 289.56 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irs21867spbf.pdf?fileId=5546d462533600a4015356770e8327eb"
-			(at 289.56 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High and Low Side Driver, 600V, 4.0/4.0A, SOIC-8"
-			(at 289.56 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4c667239-2cd6-47b8-b712-f29c368e45a7")
-		)
-		(pin "6"
-			(uuid "75f7fccf-87ec-4875-a686-dc63561a04fd")
-		)
-		(pin "5"
-			(uuid "fd44b793-2b8e-47d6-a81d-e39359b451a4")
-		)
-		(pin "8"
-			(uuid "4ed38b7a-4822-4502-90d2-36319b11ef07")
-		)
-		(pin "1"
-			(uuid "b0d6fc74-7cdc-4ce3-9f06-6a3a5b32950b")
-		)
-		(pin "4"
-			(uuid "d67af021-7213-4554-b806-75c237bc95b5")
-		)
-		(pin "7"
-			(uuid "0364339b-e119-4ba9-880c-d335c23688a2")
-		)
-		(pin "2"
-			(uuid "1f48000e-a823-40b7-8810-1014425eb854")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
-					(reference "U17")
 					(unit 1)
 				)
 			)
