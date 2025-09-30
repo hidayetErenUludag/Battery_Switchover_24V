@@ -55,28 +55,6 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -2.73 -2.725)
-		(end 21.33 19.34)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "d8168b6d-41f7-41e1-84b5-66455dbdbbaa")
-	)
-	(fp_rect
-		(start -2.73 -2.7375)
-		(end 21.33 19.3275)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.Cu")
-		(uuid "b8d9e8c1-8215-4db5-a028-a9f657658ae7")
-	)
 	(fp_line
 		(start 3.56 9.89)
 		(end 10.9 2.55)
@@ -133,7 +111,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 4.8 4.8)
+		(size 7 7)
 		(drill 4.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -141,7 +119,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 8.25)
-		(size 4.8 4.8)
+		(size 7 7)
 		(drill 4.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -149,7 +127,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 16.5)
-		(size 4.8 4.8)
+		(size 7 7)
 		(drill 4.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -157,7 +135,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 18.5 0)
-		(size 4.8 4.8)
+		(size 7 7)
 		(drill 4.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -165,7 +143,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 18.5 8.25)
-		(size 4.8 4.8)
+		(size 7 7)
 		(drill 4.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -173,7 +151,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 18.5 16.5)
-		(size 4.8 4.8)
+		(size 7 7)
 		(drill 4.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

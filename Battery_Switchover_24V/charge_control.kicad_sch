@@ -743,6 +743,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2273,6 +2423,12 @@
 		(uuid "077a6b54-1c17-45f3-9eea-b1fafa0a86a7")
 	)
 	(junction
+		(at 180.34 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "088b9d18-bb37-45f6-a130-a24244bd049a")
+	)
+	(junction
 		(at 170.18 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2387,6 +2543,12 @@
 		(uuid "90a0130f-8d1e-4b0f-b367-bef236d3af18")
 	)
 	(junction
+		(at 185.42 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a517945c-f8ba-4c65-99ad-cbaf8f25740e")
+	)
+	(junction
 		(at 118.11 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2453,7 +2615,7 @@
 		(uuid "dab3eed3-a317-435b-a6bb-302f68d33e48")
 	)
 	(junction
-		(at 199.39 80.01)
+		(at 208.28 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e762e2a5-cb0c-48ca-bd1c-8b56236fff01")
@@ -2469,6 +2631,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e81dbe08-0585-42fa-9967-0135df648e2d")
+	)
+	(junction
+		(at 191.77 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f34d48b9-47f5-4bd2-b674-2c220d7ac5d6")
+	)
+	(junction
+		(at 185.42 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4cd6de6-770c-420f-aa20-8a8fb437d79c")
 	)
 	(wire
 		(pts
@@ -2502,6 +2676,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 80.01) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0546cf35-09d2-4b3d-8b55-11fcd3becd71")
+	)
+	(wire
+		(pts
 			(xy 140.97 109.22) (xy 165.1 109.22)
 		)
 		(stroke
@@ -2532,6 +2716,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c047d7c-b6f4-4fde-b126-0eb314348d45")
+	)
+	(wire
+		(pts
 			(xy 68.58 58.42) (xy 41.91 58.42)
 		)
 		(stroke
@@ -2542,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 199.39 80.01)
+			(xy 208.28 85.09) (xy 208.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 85.09) (xy 199.39 85.09)
+			(xy 205.74 85.09) (xy 208.28 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 92.71) (xy 199.39 92.71)
+			(xy 205.74 92.71) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3032,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 80.01) (xy 201.93 80.01)
+			(xy 208.28 80.01) (xy 210.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3282,7 +3476,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 80.01) (xy 199.39 80.01)
+			(xy 191.77 80.01) (xy 208.28 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed6e1d5-19c6-4cdd-b360-095076a9a21d")
+	)
+	(wire
+		(pts
+			(xy 180.34 80.01) (xy 185.42 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3339,6 +3543,16 @@
 			(type default)
 		)
 		(uuid "b9be7beb-8dfa-4c7d-a190-7f2f07e8e9fd")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae1bfed-73d7-407f-aa75-3c071c1a502f")
 	)
 	(wire
 		(pts
@@ -3582,6 +3796,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 80.01) (xy 191.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db907785-8731-477d-91bf-f5f4143d591c")
+	)
+	(wire
+		(pts
 			(xy 121.92 35.56) (xy 118.11 35.56)
 		)
 		(stroke
@@ -3602,7 +3826,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 92.71) (xy 199.39 96.52)
+			(xy 208.28 92.71) (xy 208.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3622,6 +3846,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 80.01) (xy 191.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8829abd-1f5e-4691-99a6-487ee6d4ae75")
+	)
+	(wire
+		(pts
 			(xy 140.97 92.71) (xy 140.97 95.25)
 		)
 		(stroke
@@ -3629,6 +3863,16 @@
 			(type default)
 		)
 		(uuid "e9a58c5c-4bf1-4995-9d80-38d94d00f5fb")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.22) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede2f609-ae17-4a97-a92e-a91f09ae5134")
 	)
 	(wire
 		(pts
@@ -3649,6 +3893,16 @@
 			(type default)
 		)
 		(uuid "f2eb6500-af40-4648-947f-f68eefa08b94")
+	)
+	(wire
+		(pts
+			(xy 191.77 99.06) (xy 191.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75a659a-467d-49a0-902f-c2c25754eac7")
 	)
 	(wire
 		(pts
@@ -3756,7 +4010,7 @@
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 201.93 80.01 0)
+		(at 210.82 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3766,7 +4020,7 @@
 		)
 		(uuid "d1ea99f4-f5fc-4ed9-8bb3-ef60aa1b4c5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.2976 80.01 0)
+			(at 219.1876 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,6 +4976,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 185.42 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5765e397-92e9-471d-8772-c5ff6cca96c8")
+		(property "Reference" "C52"
+			(at 186.69 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330uF"
+			(at 186.69 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1335b37e-958f-4c7b-85f6-de01c4a03d8e")
+		)
+		(pin "2"
+			(uuid "ff1150f5-7199-4ebe-bb78-58fde80bf086")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/93b4fe32-55c4-45c8-9b61-df73d630bf50"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 41.91 52.07 180)
 		(unit 1)
@@ -4861,7 +5184,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 96.52 0)
+		(at 208.28 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4870,7 +5193,7 @@
 		(fields_autoplaced yes)
 		(uuid "702df3ec-7492-4d97-addc-cc629972fb99")
 		(property "Reference" "#PWR0126"
-			(at 199.39 102.87 0)
+			(at 208.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +5202,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 101.6 0)
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +5210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 96.52 0)
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +5219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 96.52 0)
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +5228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 96.52 0)
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5454,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 191.77 90.17 0)
+		(at 200.66 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5140,7 +5463,7 @@
 		(fields_autoplaced yes)
 		(uuid "858dc1db-a2b5-4d25-a6ad-2449361e6422")
 		(property "Reference" "BT1"
-			(at 195.58 87.0584 0)
+			(at 204.47 87.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5472,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 195.58 89.5984 0)
+			(at 204.47 89.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 88.646 90)
+			(at 200.66 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 88.646 90)
+			(at 200.66 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5499,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 191.77 90.17 0)
+			(at 200.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5524,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 191.77 85.09 180)
+		(at 200.66 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5209,7 +5532,7 @@
 		(dnp no)
 		(uuid "86521510-9902-479b-b1ad-5f530bedfb22")
 		(property "Reference" "J14"
-			(at 188.722 85.09 0)
+			(at 197.612 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5540,7 @@
 			)
 		)
 		(property "Value" "M6"
-			(at 192.024 82.804 0)
+			(at 200.914 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5548,7 @@
 			)
 		)
 		(property "Footprint" "M8_Screw_Terminal:M6_Screw_Terminal"
-			(at 191.77 85.09 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 85.09 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5566,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 85.09 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "RES0508:0508"
 			(at 140.97 100.33 0)
 			(effects
 				(font
@@ -5741,7 +6064,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 191.77 92.71 180)
+		(at 200.66 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5749,7 +6072,7 @@
 		(dnp no)
 		(uuid "a1e811c8-4d89-4da5-bce0-8844e3a39be8")
 		(property "Reference" "J15"
-			(at 188.468 92.964 0)
+			(at 197.358 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +6080,7 @@
 			)
 		)
 		(property "Value" "M6"
-			(at 192.024 95.25 0)
+			(at 200.914 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +6088,7 @@
 			)
 		)
 		(property "Footprint" "M8_Screw_Terminal:M6_Screw_Terminal"
-			(at 191.77 92.71 0)
+			(at 200.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +6097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 92.71 0)
+			(at 200.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +6106,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 92.71 0)
+			(at 200.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,6 +6961,75 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/93b4fe32-55c4-45c8-9b61-df73d630bf50"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 191.77 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcb526a8-0798-41a3-bb1d-62d4a345a618")
+		(property "Reference" "D23"
+			(at 190.754 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "P6SMBJ26A"
+			(at 190.754 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "276c35df-cd15-4665-9875-301b6c2c194b")
+		)
+		(pin "1"
+			(uuid "ece8cc37-1635-4eb9-8ff9-7f983891a1ed")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/93b4fe32-55c4-45c8-9b61-df73d630bf50"
+					(reference "D23")
 					(unit 1)
 				)
 			)
