@@ -1657,12 +1657,6 @@
 		(uuid "3a25c6c4-2574-4438-b4ba-02574964d248")
 	)
 	(junction
-		(at 100.33 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4518f9b3-0812-4e7f-8db9-3f7d883475ec")
-	)
-	(junction
 		(at 173.99 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2170,16 +2164,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 109.22) (xy 100.33 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "825d5de2-b2cd-4a4d-a714-a25364652336")
-	)
-	(wire
-		(pts
 			(xy 189.23 140.97) (xy 181.61 140.97)
 		)
 		(stroke
@@ -2350,16 +2334,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 100.33 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b5b0d7-6ff7-4940-a700-672a5e68fa0f")
-	)
-	(wire
-		(pts
 			(xy 69.85 102.87) (xy 76.2 102.87)
 		)
 		(stroke
@@ -2490,16 +2464,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 114.3) (xy 100.33 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb67a789-38f9-48bc-8ee3-b6c97d8e57ee")
-	)
-	(wire
-		(pts
 			(xy 265.43 107.95) (xy 265.43 113.03)
 		)
 		(stroke
@@ -2520,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 102.87) (xy 130.81 102.87)
+			(xy 76.2 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2959,72 +2923,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/0650697f-8d34-4346-a93f-e65dd5d58ae8"
 					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ccff240-4a88-41e4-980b-f6c7e8f4825d")
-		(property "Reference" "#PWR065"
-			(at 100.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e71875dd-0a24-46c8-849d-56fa7bc8e6c5")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/0650697f-8d34-4346-a93f-e65dd5d58ae8"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3798,75 +3696,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/0650697f-8d34-4346-a93f-e65dd5d58ae8"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 100.33 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83616968-2e15-45a9-b26d-52acb55ed83b")
-		(property "Reference" "C36"
-			(at 99.568 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 99.314 104.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 100.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 100.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5698bed2-c057-4b8b-ab16-c6bcd57c28d2")
-		)
-		(pin "1"
-			(uuid "c3849a65-e44b-48c5-b67c-c7d9977fa117")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/0650697f-8d34-4346-a93f-e65dd5d58ae8"
-					(reference "C36")
 					(unit 1)
 				)
 			)
