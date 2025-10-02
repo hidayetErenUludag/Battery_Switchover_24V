@@ -6887,6 +6887,28 @@
 			)
 		)
 	)
+	(global_label "INTERNAL_FAN"
+		(shape input)
+		(at 121.92 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "094fb545-9cc1-419a-815d-d423376c01cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.6904 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Main_Voltage_LED"
 		(shape input)
 		(at 199.39 59.69 0)
@@ -7164,6 +7186,28 @@
 		(uuid "4dcfc570-0502-494e-8874-1a2a855e5a13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.8833 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMERGENCY_STOP"
+		(shape input)
+		(at 121.92 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e59f983-d484-4f8e-b11b-4ef93091249c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.0621 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,6 +7692,28 @@
 		(uuid "c0cfc2e9-41c9-4767-9cce-7534e540ca7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.1015 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ON_OFF_BUTTON"
+		(shape input)
+		(at 121.92 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c540e991-84a5-4f4d-8135-d270d66d8146")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.6342 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
