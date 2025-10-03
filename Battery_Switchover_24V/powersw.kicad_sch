@@ -2528,6 +2528,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC817"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC817"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC817_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC817_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "irs20752:IRS20752"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3106,6 +3311,12 @@
 		(uuid "4102eda4-97f3-4910-a7f4-5f0fb09f7def")
 	)
 	(junction
+		(at 307.34 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "448c3f9b-08df-407e-bead-0e2c426de36c")
+	)
+	(junction
 		(at 233.68 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3206,6 +3417,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66229323-d639-438d-91f6-05c274e7bb23")
+	)
+	(junction
+		(at 308.61 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6636c1e3-e2cc-445e-ac9b-8657673d28cd")
 	)
 	(junction
 		(at 361.95 105.41)
@@ -3398,6 +3615,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbeafc28-45d9-46c2-a9bb-5e9a023e901b")
+	)
+	(junction
+		(at 308.61 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc884bd0-619e-44fa-8e38-3356dbe4f916")
 	)
 	(junction
 		(at 377.19 199.39)
@@ -3597,6 +3820,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 240.03) (xy 300.99 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3b5bec-64cc-487c-a99e-d5eb6ebfae31")
+	)
+	(wire
+		(pts
 			(xy 88.9 208.28) (xy 88.9 212.09)
 		)
 		(stroke
@@ -3714,16 +3947,6 @@
 			(type default)
 		)
 		(uuid "157640c6-ffbb-4909-807f-9d0cd2c148f5")
-	)
-	(wire
-		(pts
-			(xy 294.64 62.23) (xy 299.72 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15ac16ec-f0e9-4b81-ae2a-15abed64259c")
 	)
 	(wire
 		(pts
@@ -3857,16 +4080,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 236.22) (xy 309.88 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21df4875-0097-4a67-a3a5-417c76d697b3")
-	)
-	(wire
-		(pts
 			(xy 152.4 180.34) (xy 142.24 180.34)
 		)
 		(stroke
@@ -3924,6 +4137,16 @@
 			(type default)
 		)
 		(uuid "268c64e3-4eab-4f0f-a1f2-1e47b2464632")
+	)
+	(wire
+		(pts
+			(xy 294.64 62.23) (xy 307.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27326d43-760a-432d-a64a-45ff0dad75e6")
 	)
 	(wire
 		(pts
@@ -4087,6 +4310,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 151.13) (xy 308.61 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351d0a02-b87f-488d-8ad5-5840ba89941f")
+	)
+	(wire
+		(pts
 			(xy 187.96 74.93) (xy 196.85 74.93)
 		)
 		(stroke
@@ -4214,6 +4447,16 @@
 			(type default)
 		)
 		(uuid "3de84617-2692-42f2-904c-c0305b3dde87")
+	)
+	(wire
+		(pts
+			(xy 308.61 228.6) (xy 308.61 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412efff0-711e-4e79-b8d2-4b5d920b476c")
 	)
 	(wire
 		(pts
@@ -4597,6 +4840,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 245.11) (xy 308.61 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a454ab3-dbea-41ad-84ef-e4cf3e99225f")
+	)
+	(wire
+		(pts
 			(xy 26.67 185.42) (xy 26.67 180.34)
 		)
 		(stroke
@@ -4917,6 +5170,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 240.03) (xy 293.37 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83cf2e26-f22c-4886-be51-860dd3a96f16")
+	)
+	(wire
+		(pts
 			(xy 384.81 53.34) (xy 384.81 50.8)
 		)
 		(stroke
@@ -4974,6 +5237,26 @@
 			(type default)
 		)
 		(uuid "8a9395c0-ac4f-4e71-b0dd-927875d6721d")
+	)
+	(wire
+		(pts
+			(xy 308.61 134.62) (xy 308.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abc3906-a85e-4e26-a06d-28974315ea1e")
+	)
+	(wire
+		(pts
+			(xy 283.21 62.23) (xy 289.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9a1cc7-c1b4-4aff-9e82-017e32c93b0d")
 	)
 	(wire
 		(pts
@@ -5064,6 +5347,16 @@
 			(type default)
 		)
 		(uuid "97582fd6-5ad8-4706-a42f-168d20ecbbf9")
+	)
+	(wire
+		(pts
+			(xy 304.8 134.62) (xy 308.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9934d132-a53d-4f55-be14-cb9a73ae78ac")
 	)
 	(wire
 		(pts
@@ -5197,13 +5490,43 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 72.39) (xy 308.61 72.39)
+			(xy 308.61 228.6) (xy 311.15 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5387504-4a80-4f0c-8c42-7b0ddc387b3d")
+	)
+	(wire
+		(pts
+			(xy 298.45 146.05) (xy 300.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a569bf62-cc6f-4ac8-ac81-a7809983ff3d")
+	)
+	(wire
+		(pts
+			(xy 285.75 80.01) (xy 292.1 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a58db84c-ddbe-4960-920e-72b79f11828f")
+	)
+	(wire
+		(pts
+			(xy 308.61 134.62) (xy 311.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ea78c2-62f3-4be8-bb62-e8b38f2bd653")
 	)
 	(wire
 		(pts
@@ -5214,6 +5537,16 @@
 			(type default)
 		)
 		(uuid "a7efee3c-022a-42bb-87f2-22f316c691cb")
+	)
+	(wire
+		(pts
+			(xy 287.02 146.05) (xy 293.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89a45fb-9cd1-44bb-902b-78dd64a24b2b")
 	)
 	(wire
 		(pts
@@ -5254,6 +5587,16 @@
 			(type default)
 		)
 		(uuid "aa540d53-d484-4af0-9852-1c82ac520d71")
+	)
+	(wire
+		(pts
+			(xy 304.8 228.6) (xy 308.61 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabad364-0c3b-4194-9651-71bb35653d33")
 	)
 	(wire
 		(pts
@@ -5657,6 +6000,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 85.09) (xy 307.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d644e3c2-c744-4925-88c4-0da07e3f8544")
+	)
+	(wire
+		(pts
 			(xy 177.8 105.41) (xy 172.72 105.41)
 		)
 		(stroke
@@ -5817,6 +6170,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 62.23) (xy 307.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a5eac8-c7b2-435e-920a-b2d9609521b6")
+	)
+	(wire
+		(pts
 			(xy 377.19 109.22) (xy 377.19 105.41)
 		)
 		(stroke
@@ -5904,6 +6267,26 @@
 			(type default)
 		)
 		(uuid "e7419bd6-c423-4097-a056-f1394cfc0690")
+	)
+	(wire
+		(pts
+			(xy 297.18 80.01) (xy 299.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ba6b37-b86a-411f-898d-4a7cd419b6ce")
+	)
+	(wire
+		(pts
+			(xy 307.34 62.23) (xy 311.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf98b17-633c-416c-a657-7d81880351c2")
 	)
 	(wire
 		(pts
@@ -6087,16 +6470,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 144.78) (xy 308.61 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6fe2d1-2a36-405e-a795-3e59979d97a8")
-	)
-	(wire
-		(pts
 			(xy 377.19 203.2) (xy 377.19 199.39)
 		)
 		(stroke
@@ -6192,7 +6565,7 @@
 	)
 	(global_label "LOAD1_EN"
 		(shape input)
-		(at 294.64 62.23 180)
+		(at 283.21 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6202,29 +6575,7 @@
 		)
 		(uuid "69c9e481-6a35-42b9-a2ff-217e9176c69e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.281 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EMERGENCY_STOP"
-		(shape input)
-		(at 306.07 236.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "715a643c-0b84-44c8-a27b-59de71e0a17c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.2121 236.22 0)
+			(at 270.851 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,28 +6603,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EMERGENCY_STOP"
-		(shape input)
-		(at 306.07 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8674bdc3-a359-4bb9-a1b6-e51ff7d73250")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.2121 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6348,7 +6677,7 @@
 	)
 	(global_label "EMERGENCY_STOP"
 		(shape input)
-		(at 306.07 72.39 180)
+		(at 285.75 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6358,7 +6687,29 @@
 		)
 		(uuid "c613d97c-2e82-40f3-b005-6c90a195985d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.2121 72.39 0)
+			(at 265.8921 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMERGENCY_STOP"
+		(shape input)
+		(at 287.02 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfc98248-699f-4375-8260-4b54384e24d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.1621 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,6 +6732,28 @@
 		(uuid "d826d116-51c4-4782-bc12-8d70bcb10c5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 282.281 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMERGENCY_STOP"
+		(shape input)
+		(at 287.02 240.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec5e3b9c-0740-45dd-8254-610cd06d4e4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.1621 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,6 +7572,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 308.61 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bc4c10d-00cc-4df5-82f1-fe9e4d51f5d3")
+		(property "Reference" "#PWR0134"
+			(at 308.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d8c7efb-f6f5-4901-8073-53c71dcadadc")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 92.71 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7833,6 +8271,292 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 304.8 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51ff777d-65b2-4aed-a7b4-45192c3f5aff")
+		(property "Reference" "Q1"
+			(at 309.88 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 309.88 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 309.88 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 304.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 304.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddd001ec-ab76-41a1-adc9-f6db55f947c6")
+		)
+		(pin "1"
+			(uuid "4346ca57-b6b7-488d-81f0-ccedfbaf5ffb")
+		)
+		(pin "3"
+			(uuid "d1ca0206-11b8-423a-b328-f8581acd72a5")
+		)
+		(instances
+			(project ""
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 295.91 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55081c60-528e-497d-867d-99fbc980dc38")
+		(property "Reference" "R69"
+			(at 301.498 241.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 293.624 241.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 295.91 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 295.91 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b951e7c-1b05-43d2-8bef-3a7b8558478d")
+		)
+		(pin "1"
+			(uuid "6c57e5be-da07-4487-8d28-03f49ed12085")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 308.61 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "558da3be-16be-4f78-9bce-3f3466128083")
+		(property "Reference" "#PWR0140"
+			(at 308.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5ebc97a-3a19-41e7-a860-cc25677c9e69")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 306.07 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5670f608-9c6f-4960-bbe8-d4a7e6ca954e")
+		(property "Reference" "Q12"
+			(at 311.15 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 311.15 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 311.15 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 306.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 306.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7371706-88db-4241-90da-e073e4dac023")
+		)
+		(pin "1"
+			(uuid "7e9c8c13-b23b-4944-b36d-6adac6188b16")
+		)
+		(pin "3"
+			(uuid "32ad862a-f29f-40e3-b26c-9ab7681a5678")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 318.77 213.36 180)
 		(unit 1)
@@ -8119,6 +8843,75 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 295.91 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "792fe753-92b5-4210-9faf-e14606106013")
+		(property "Reference" "R68"
+			(at 301.498 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 293.624 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 295.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 295.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06082b09-2ff6-4aeb-a0aa-81d654c8470c")
+		)
+		(pin "1"
+			(uuid "033f8ba8-845a-45d5-a070-d445543409c0")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -8604,6 +9397,140 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 307.34 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90e02533-4289-4e7f-b1d2-d66289fef584")
+		(property "Reference" "#PWR0131"
+			(at 307.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99af4ef1-da59-4eda-9aa3-37c8b441e01e")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 294.64 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9327ccc4-bfc1-431c-8dab-355ec0b53030")
+		(property "Reference" "R67"
+			(at 300.228 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 292.354 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 294.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 294.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2efd4831-8496-478e-9e77-7a7a4821e156")
+		)
+		(pin "1"
+			(uuid "05c1fd4e-1c8c-4901-ac00-c4924ac2d19c")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 306.07 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8882,7 +9809,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 302.26 62.23 90)
+		(at 292.1 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8890,7 +9817,7 @@
 		(dnp no)
 		(uuid "9a8562b4-1c70-4e83-9202-04694044d3d7")
 		(property "Reference" "R64"
-			(at 307.848 63.246 90)
+			(at 297.688 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +9826,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 299.974 63.246 90)
+			(at 289.814 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +9835,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 302.26 62.23 0)
+			(at 292.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +9844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 302.26 62.23 0)
+			(at 292.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +9853,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 302.26 62.23 0)
+			(at 292.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,6 +12255,82 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 306.07 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eae4e5e3-b3c4-43ff-8334-faf8bcde7758")
+		(property "Reference" "Q15"
+			(at 311.15 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 311.15 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 311.15 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 306.07 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 306.07 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eabfc7ed-5319-4f78-8bb7-6ab42b6981f5")
+		)
+		(pin "1"
+			(uuid "174a16ea-6bf5-4018-b81e-25761da7a72f")
+		)
+		(pin "3"
+			(uuid "c10c6b7e-ea39-4689-95f9-8bfdc1761883")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/40a8593a-1917-4d96-a386-ebab07cd1c69"
+					(reference "Q15")
 					(unit 1)
 				)
 			)
