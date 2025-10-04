@@ -8,4 +8,6 @@
   (lib (name "OLED_128X64_1.3_I2C")(type "KiCad")(uri "${KIPRJMOD}/lib/OLED_128X64_1.3_I2C.kicad_sym")(options "")(descr ""))
   (lib (name "LM60CIM3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/lib/LM60CIM3_NOPB.kicad_sym")(options "")(descr ""))
   (lib (name "irs20752")(type "KiCad")(uri "${KIPRJMOD}/lib/irs20752.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24630RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ24630RGER.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ76907")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ76907.kicad_sym")(options "")(descr ""))
 )

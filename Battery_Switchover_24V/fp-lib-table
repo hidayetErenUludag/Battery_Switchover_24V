@@ -6,4 +6,6 @@
   (lib (name "USB_C_Vertical")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_C_Vertical")(options "")(descr ""))
   (lib (name "SOT95P251X112-3N")(type "KiCad")(uri "${KIPRJMOD}/lib/SOT95P251X112-3N.pretty")(options "")(descr ""))
   (lib (name "RES0508")(type "KiCad")(uri "${KIPRJMOD}/lib/RES0508.pretty")(options "")(descr ""))
+  (lib (name "QFN50P350X350X100-21N")(type "KiCad")(uri "${KIPRJMOD}/lib/QFN50P350X350X100-21N.pretty")(options "")(descr ""))
+  (lib (name "IC_BQ25756RRVR")(type "KiCad")(uri "${KIPRJMOD}/lib/IC_BQ25756RRVR.pretty")(options "")(descr ""))
 )
