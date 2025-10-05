@@ -5547,6 +5547,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 54.61) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd9e232-ff58-4463-a010-23273be71ed4")
+	)
+	(wire
+		(pts
 			(xy 201.93 36.83) (xy 201.93 38.1)
 		)
 		(stroke
@@ -6577,6 +6587,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 69.85) (xy 156.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df07259f-dd7c-4e0a-8a92-60106988f6b7")
+	)
+	(wire
+		(pts
 			(xy 191.77 52.07) (xy 194.31 52.07)
 		)
 		(stroke
@@ -6919,7 +6939,7 @@
 	)
 	(global_label "INTERNAL_FAN"
 		(shape input)
-		(at 152.4 87.63 180)
+		(at 148.59 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6929,7 +6949,7 @@
 		)
 		(uuid "094fb545-9cc1-419a-815d-d423376c01cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.1704 87.63 0)
+			(at 132.3604 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7379,6 +7399,28 @@
 			)
 		)
 	)
+	(global_label "CHG_ALERT"
+		(shape input)
+		(at 148.59 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "651a3375-b0e8-441b-9dd6-bb2b4beeffbb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.2634 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BATTERY_OW_TEMP"
 		(shape input)
 		(at 148.59 52.07 180)
@@ -7557,7 +7599,7 @@
 	)
 	(global_label "BUTTON2"
 		(shape input)
-		(at 152.4 102.87 180)
+		(at 152.4 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7567,7 +7609,7 @@
 		)
 		(uuid "9f5e15da-75cc-4db7-b3ec-bf2d3cda2d5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0086 102.87 0)
+			(at 141.0086 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
