@@ -10,4 +10,5 @@
   (lib (name "irs20752")(type "KiCad")(uri "${KIPRJMOD}/lib/irs20752.kicad_sym")(options "")(descr ""))
   (lib (name "BQ24630RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ24630RGER.kicad_sym")(options "")(descr ""))
   (lib (name "BQ76907")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ76907.kicad_sym")(options "")(descr ""))
+  (lib (name "AP74700Q")(type "KiCad")(uri "${KIPRJMOD}/lib/AP74700Q.kicad_sym")(options "")(descr ""))
 )

@@ -7047,6 +7047,28 @@
 			)
 		)
 	)
+	(global_label "BATT_EN"
+		(shape input)
+		(at 135.89 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "153cc587-4a77-40d2-9ed0-bcbc786d6371")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.1639 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_VBATT"
 		(shape input)
 		(at 152.4 82.55 180)
@@ -7527,6 +7549,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAINS_EN"
+		(shape input)
+		(at 137.16 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "789576ce-18c6-4964-9837-1c4bfb8e4851")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.0429 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
