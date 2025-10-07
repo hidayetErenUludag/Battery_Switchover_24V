@@ -2980,7 +2980,7 @@
 	)
 	(text "OUT2"
 		(exclude_from_sim no)
-		(at 379.476 97.536 90)
+		(at 386.588 105.918 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3002,7 +3002,7 @@
 	)
 	(text "OUT1"
 		(exclude_from_sim no)
-		(at 348.6785 47.4345 90)
+		(at 388.112 35.306 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3034,7 +3034,7 @@
 	)
 	(text "OUT3"
 		(exclude_from_sim no)
-		(at 388.112 200.406 0)
+		(at 388.112 200.406 90)
 		(effects
 			(font
 				(size 1.27 1.27)

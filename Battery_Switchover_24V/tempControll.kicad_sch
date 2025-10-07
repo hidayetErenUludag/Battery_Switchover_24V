@@ -2867,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 177.8) (xy 60.96 177.8)
+			(xy 58.42 177.8) (xy 62.23 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3607,7 +3607,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 172.72) (xy 71.12 172.72)
+			(xy 58.42 172.72) (xy 62.23 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3657,16 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 177.8) (xy 60.96 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec5323ee-4d48-4a21-afdf-db8296a11a73")
-	)
-	(wire
-		(pts
 			(xy 133.35 99.06) (xy 133.35 110.49)
 		)
 		(stroke
@@ -3674,6 +3664,16 @@
 			(type default)
 		)
 		(uuid "ef65437c-5c1f-4dfb-822b-484d04403d57")
+	)
+	(wire
+		(pts
+			(xy 62.23 170.18) (xy 62.23 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2771944-5a9b-4c6a-9344-f7317c5d4ca1")
 	)
 	(wire
 		(pts
@@ -3873,7 +3873,7 @@
 	)
 	(global_label "EMERGENCY_STOP"
 		(shape input)
-		(at 71.12 172.72 0)
+		(at 62.23 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3883,7 +3883,7 @@
 		)
 		(uuid "c09fc5d7-2ad9-423b-9a00-e95ef4825aa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.9779 172.72 0)
+			(at 82.0879 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,6 +4074,71 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 62.23 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ca38297-67e2-411d-bceb-8be28374c847")
+		(property "Reference" "#PWR030"
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 62.23 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "054f26ae-d0fd-45e7-9e1f-cede28534491")
+		)
+		(instances
+			(project "Battery_Switchover_24V"
+				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4304,71 +4369,6 @@
 			(project "Battery_Switchover_24V"
 				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1eb91e87-909c-4782-8470-701c1f469331")
-		(property "Reference" "#PWR0132"
-			(at 60.96 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6aafa92-b347-4f0d-80a2-95bbbe070e57")
-		)
-		(instances
-			(project "Battery_Switchover_24V"
-				(path "/045845e0-5d00-4da8-961e-99bdf190f683/61e6564d-1def-4c7b-94e3-39d84e389366"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
