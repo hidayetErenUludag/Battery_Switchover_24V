@@ -175,4 +175,15 @@
 		(uuid "224b2e16-790c-4114-8e32-e0e2279d7d5e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/M8_Terminal-Body.step"
+		(offset
+			(xyz 9.25 -7.8 18)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

@@ -138,4 +138,15 @@
 		(uuid "6433f5b9-bd7b-4e32-bbcb-5ed8646c3fb3")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/ATX 6 pin PCB connector.STEP"
+		(offset
+			(xyz 4.2 -2.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )

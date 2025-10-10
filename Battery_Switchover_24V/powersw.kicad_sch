@@ -6937,7 +6937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
+		(property "Footprint" "M8_Screw_Terminal:ATX_PCIE_6pin_P4.2"
 			(at 374.65 45.72 0)
 			(effects
 				(font
@@ -7622,7 +7622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
+		(property "Footprint" "M8_Screw_Terminal:ATX_PCIE_6pin_P4.2"
 			(at 374.65 210.82 0)
 			(effects
 				(font
@@ -9740,7 +9740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
+		(property "Footprint" "M8_Screw_Terminal:ATX_PCIE_6pin_P4.2"
 			(at 382.27 116.84 0)
 			(effects
 				(font
@@ -9819,7 +9819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
+		(property "Footprint" "M8_Screw_Terminal:ATX_PCIE_6pin_P4.2"
 			(at 374.65 116.84 0)
 			(effects
 				(font
@@ -11303,7 +11303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
+		(property "Footprint" "M8_Screw_Terminal:ATX_PCIE_6pin_P4.2"
 			(at 382.27 45.72 0)
 			(effects
 				(font
@@ -12350,7 +12350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
+		(property "Footprint" "M8_Screw_Terminal:ATX_PCIE_6pin_P4.2"
 			(at 382.27 210.82 0)
 			(effects
 				(font

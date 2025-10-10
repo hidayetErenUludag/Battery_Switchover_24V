@@ -8,4 +8,5 @@
   (lib (name "RES0508")(type "KiCad")(uri "${KIPRJMOD}/lib/RES0508.pretty")(options "")(descr ""))
   (lib (name "QFN50P350X350X100-21N")(type "KiCad")(uri "${KIPRJMOD}/lib/QFN50P350X350X100-21N.pretty")(options "")(descr ""))
   (lib (name "IC_BQ25756RRVR")(type "KiCad")(uri "${KIPRJMOD}/lib/IC_BQ25756RRVR.pretty")(options "")(descr ""))
+  (lib (name "ATX_Power_Conn")(type "KiCad")(uri "${KIPRJMOD}/ATX_Power_Conn.pretty")(options "")(descr ""))
 )
